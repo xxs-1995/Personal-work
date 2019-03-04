@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>添加编辑图片-网站设置-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+        $addJs="";
+        $currentNav ='网站设置 > 添加编辑图片';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+<div class="wrap"> <include file="Common:head" />
+    <div class="mainBody"> <include file="Common:left" />
+        <div id="Right">
+            <div class="contentArea">
+                <div class="Item hr">
+                    <div class="current">编辑标签</div>
+                </div>
+                <form action="{:U('Tag/editZi')}" method="post" enctype="multipart/form-data">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                        <input type="hidden" value="{$info['tag_id']}" name='tag_id'>
+                        <tr>
+                            <th>类别：</th>
+                            <td><select name="tag_type" style="width: 80px;" disabled="disabled">
+                                <option value="" >{$fuji['tag_name']}</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <th width="120">标签名称：</th>
+                            <td><input name="tag_name" type="text" class="input" size="40" value="<?php print_r($info['tag_name']);?>" /> </td>
+                        </tr>
+                    </table>
+                    <!-- <input type="hidden" name="id" value="{$info.id}"/> -->
+                    <input type="hidden" name="fujiid" value="{$fuji['tag_id']}"/>
+                    <div class="commonBtnArea" >
+                        <button class="btn submit">提交</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<include file="Common:foot" />
+<script type="text/javascript">
+    // $(function(){
+    //     $(".submit").click(function(){
+    //         commonAjaxSubmit();
+    //     });
+    // });
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>直播管理-{$site.SITE_INFO.name}</title>
+        <php>
+            $addCss="";
+            $addJs="";
+            $currentNav ='直播管理 > 观看直播';
+        </php>
+        <include file="Common:intoHead" />
+        <link rel="stylesheet" href="//g.alicdn.com/de/prismplayer/2.2.0/skins/default/aliplayer-min.css" />
+<script type="text/javascript" src="//g.alicdn.com/de/prismplayer/2.2.0/aliplayer-min.js"></script>
+    </head>
+    <body>
+        <div  class="prism-player" id="J_prismPlayer" style="position: absolute;left:0%;"></div>
+         <script>
+            var player = new Aliplayer({
+            id: "J_prismPlayer",
+                 autoplay: true,
+                 isLive:true,
+                 playsinline:true,
+                 width:"100%",
+                 height:"400px",
+                 controlBarVisibility:"always",
+                 useH5Prism:true,
+                 useFlashPrism:false,
+                 source:"{$pull}",
+                 cover:""                  
+        });
+  </script>
+        <div class="clear"></div>
+        <include file="Common:foot" />
+    </body>
+</html>

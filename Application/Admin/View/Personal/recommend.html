@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>菜单管理-菜单列表-后台管理首页-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+        $addJs="";
+        $currentNav ='菜单管理 > 菜单列表';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+<div class="wrap">
+    <include file="Common:head" />
+    <div class="mainBody">
+        <include file="Common:left" />
+        <div id="Right">
+            <div class="Item hr">
+                <div class="current" style="max-width: 100px; float: left;">认证管理</div>
+                <div style="width: 100px;float: right;"></div>
+            </div>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tab">
+
+                <thead>
+                <!-- 0 -->
+                <tr><td colspan="7" align="left">
+                            <form action="__SELF__" method="get">
+                                用户id/手机号：<input type="text" name="keyword" value="<php>echo $_GET['keyword'];</php>" size="30" style="margin-right: 20px;">
+                                <input type="submit" value="搜索">
+                            </form>
+                        </td></td></tr>
+                <tr align="center">
+                    <!-- 1 -->
+                    <td width="2%">ID</td>
+                    <td width="5%">真实姓名</td>
+                    <!-- 2 -->
+                    <td width="6%">电话</td>
+                    <!-- 9 -->
+                    <td width="2%">年龄</td>
+                    <!-- 10 -->
+                    <td width="1%">性别</td>
+                    <!-- 11 -->
+                    <td width="7%">身份证号</td>
+                    <!-- 12 -->
+                    <td width="7%">微信账号</td>
+                    <!-- 13 -->
+                    <td width="8%">支付宝账号</td>
+                    <!-- 14 -->
+                    <td width="4%">是否认证</td>
+                    <!-- 15 -->
+                    <td width="3%">操作</td>
+                </tr>
+                </thead>
+                <tbody>
+                <volist name="info" id="tree">
+                    <tr pid="{$tree.id}" cid="{$tree.id}">
+                        <!-- 0 -->
+                        <input type="hidden" name="id" value="{$tree.id}"/>
+                        <!-- 1 -->
+                        <td  align="center">{$tree.id}</td>
+                        <td  align="center">{$tree.real_name}</td>
+                        <!-- 2 -->
+                         <td align="center">{$tree.mobile}</td>
+                        <!-- 3 -->
+                        <td align="center">{$tree.age}</td>
+                        <!-- 4 -->
+                        <td align="center"><?php if($tree['sex'] == 0){ ?>
+                            <?php echo "女";?>
+                        <?php }else{ ?>
+                            <?php echo "男";?>
+                        <?php }?></td>
+                        <!-- 5 -->
+                        <!-- <td ><img src="" alt="" width="50" height="50" /></td> -->
+                        <!-- 6 -->
+                        <td align="center">{$tree.id_number}</td>
+                        <!-- 7 -->
+                        <td align="center">{$tree.wx}</td>
+                        <!-- 8 -->
+                   <!--      <td align="center"><switch name="tree.level" >
+                                                <case value="0">用户</case>
+                                                <case value="1">会员</case>
+                                                <case value="2">总监</case>
+                                                <case value="3">合伙人</case>
+                                            </switch></td> --> 
+                        <!-- <td align="center">{$tree.user_type}</td> -->
+                        <!-- 9 -->
+                        <td align="center">{$tree.alipay}</td>
+                        <!-- 10 -->
+                        <!-- <td align="center">{$tree.user_artdirection}</td> -->
+                        <!-- 11 -->
+                        <!-- <td align="center">{$tree.user_achievement}</td> -->
+                        <!-- 12 -->
+                        <td align="center"><?php if($tree['auth'] == 0){ ?>
+                            <?php echo "未认证";?>
+                        <?php }else{ ?>
+                            <?php echo "已认证";?>
+                        <?php }?></td>
+                        <!-- 13 -->
+                        <!-- <td align="center">{$tree.user_introduce}</td> -->
+                        <!-- 14 -->
+                      <!--   <td align="center"></td> -->
+                        <!-- 15 -->
+                        <td align="center" ><!-- <button class="btn" onclick="window.location.href='{:U('Personal/picarr')}?id={$tree.user_id}'">相册</button> -->
+                            <!-- <button type="button" class="btn" onclick="window.location.href='{:U('Personal/edit')}?id={$tree.user_id}'">编辑</button> -->
+                            <button class="btn" onclick="window.location.href='{:U('Personal/select')}?id={$tree.user_id}'">认证通过</button>
+                           <!--  <button class="btn" onclick="window.location.href='{:U('Order/index')}?user_id={$tree.user_id}'">认证信息</button>
+                             -->
+                   
+                       
+                        </td>
+                    </tr>
+                </volist>
+                <tr><td colspan="8" align="left">
+                    <form action="{:U('Personal/export')}" method="post">
+                                日期：
+                                <select name="time" class="time">
+                                    <option value="-1">全部</option>
+                                    <option value="1" <php>if($_GET['time']==1)echo selected;</php>>当天</option>
+                                    <option value="2" <php>if($_GET['time']==2)echo selected;</php>>当周</option>
+                                    <option value="3" <php>if($_GET['time']==1)echo selected;</php>>当月</option>
+                                </select>
+                                <input type="date" name="starttime" class="starttime" />
+                                <input type="date" name="endtime" class="endtime" />
+                                <input type="submit" value="导出EXCEL">
+                    </form>
+                        </td></td></tr>
+                <tr>
+                    <td colspan="10" align="right" >{$page}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<form action="" method="post" id="opForm">
+    <input id="cid" type="hidden" name="data[id]" />
+    <input id="act" type="hidden" name="act" />
+    <input id="pid" type="hidden" name="data[parent_id]" />
+    <input id="name" type="hidden" name="data[nav_name]" />
+</form>
+<div class="clear"></div>
+<include file="Common:foot" />
+<script type="text/javascript">
+    $(function(){
+        var starttime,endtime;
+        starttime = endtime =0
+            $(".starttime").change(function(){
+                 starttime=Date.parse(new Date($(".starttime").val()))/1000;
+                 // var endtime=Date.parse(new Date($(".endtime").val()))/1000;
+                 $(".starttime").val(starttime)
+                  console.log(starttime);
+            })
+            $(".endtime").change(function(){
+                 //var starttime=Date.parse(new Date($(".starttime").val()))/1000;
+                  endtime=Date.parse(new Date($(".endtime").val()))/1000;
+                  $(".endtime").val(endtime)
+                  console.log(endtime);
+            })
+            // $("#export").click(function(){
+            //     var time = $(".time").val();
+            //     $.ajax({
+            //             url: '{:U("Personal/export")}',
+            //             type: 'POST',
+            //             async: "true",
+            //             data: {
+            //                 time: time,
+            //                 starttime:starttime,
+            //                 endtime:endtime
+            //             },
+            //             dataType: 'json',
+            //             success: function(data) {
+            //                 alert(data.msg)
+            //             }
+            //     });
+            // });
+
+
+        $(".opCat").click(function(){
+            var obj=$(this).parents("tr");
+            $("#cid").val(obj.find("input[name='id']").val());
+            $("#act").val(obj.find("select[name='act']").val());
+            $("#pid").val(obj.find("select[name='parent_id']").val());
+            $("#name").val(obj.find("input[name='nav_name']").val());
+            if($("#act").val()=="del"){
+                popup.confirm('你真的打算删除该分类吗?','温馨提示',function(action){
+                    if(action == 'ok'){
+                        commonAjaxSubmit("","#opForm");
+                    }
+                });
+                return false;
+            }
+            commonAjaxSubmit("","#opForm");
+        });
+        var chn=function(cid,op){
+            if(op=="show"){
+                $("tr[pid='"+cid+"']").each(function(){
+                    $(this).removeAttr("status").show();
+                    chn($(this).attr("cid"),"show");
+                });
+            }else{
+                $("tr[pid='"+cid+"']").each(function(){
+                    $(this).attr("status",1).hide();
+                    chn($(this).attr("cid"),"hide");
+                });
+            }
+        }
+        // $(".tree").click(function(){
+        //     if($(this).attr("status")!=1){
+        //         chn($(this).parent().attr("cid"),"hide");
+        //         $(this).attr("status",1);
+        //     }else{
+        //         chn($(this).parent().attr("cid"),"show");
+        //         $(this).removeAttr("status");
+        //     }
+        // });
+    });
+</script>
+</body>
+</html>

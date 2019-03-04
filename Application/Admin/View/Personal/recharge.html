@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>BOWT充值-网站设置-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+        $addJs="";
+        $currentNav ='会员列表 >   BOWT充值';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+<div class="wrap"> <include file="Common:head" />
+    <div class="mainBody"> <include file="Common:left" />
+        <div id="Right">
+            <div class="contentArea">
+                <div class="Item hr">
+                    <div class="current">BOW充值</div>
+                </div>
+                <form action="{:U('recharge')}" method="post" enctype="multipart/form-data">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                    
+                        <tr>
+                            <th width="120">用户手机号：</th>
+                            <td><input name="user_tel" type="text" class="input" size="40" value="" /> </td>
+                        </tr>
+                        <tr>
+                            <th width="120">充值的金额：</th>
+                            <td><input name="jine" type="text" class="input" size="40" value="" /> </td>
+                        </tr>
+
+                    </table>
+                    <div class="commonBtnArea" >
+                        <button class="btn submit">提交</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<include file="Common:foot" />
+<script type="text/javascript">
+    $(function(){
+        $(".submit").click(function(){
+            $('form').submit();
+        });
+    });
+</script>
+</body>
+</html>

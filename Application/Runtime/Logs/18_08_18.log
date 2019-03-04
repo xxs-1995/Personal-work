@@ -1,0 +1,66 @@
+[ 2018-08-18T06:58:13+08:00 ] 101.199.108.119 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.004883s ]
+NOTIC: [8] Undefined index: access_token E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SELECT `user_id`,`user_img`,`mineral`,`user_tel`,`suanli`,`user_nickname`,`user_number`,`user_jine`,`dig` FROM `pa_personal` WHERE ( access_token = "" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-08-18T12:15:09+08:00 ] 113.45.74.41 /Index/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM pa_news n [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_news n
+SQL: SELECT * FROM pa_news n INNER JOIN pa_category c on c.cid = n.cid  WHERE ( c.name = "头条新闻" )  [ RunTime:0.004882s ]
+
+[ 2018-08-18T12:15:09+08:00 ] 113.45.74.41 /index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.004883s ]
+SQL: SELECT `user_id`,`user_img`,`mineral`,`user_tel`,`suanli`,`user_nickname`,`user_number`,`user_jine`,`dig` FROM `pa_personal` WHERE ( access_token = "8d68c7e395f9a8a462d45ab2ce06b5c7" ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `pa_mining` [ RunTime:0.003906s ]
+SQL: INSERT INTO `pa_mining` (`user_id`,`createtime`,`receive`,`title`,`bid`,`number`) VALUES (50,1534565709,0,'BOW',3,0.00972) [ RunTime:0.003906s ]
+SQL: INSERT INTO `pa_mining` (`user_id`,`createtime`,`receive`,`title`,`bid`,`number`) VALUES (50,1534565709,0,'BOW',3,0.00427) [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `pa_computing` [ RunTime:0.003906s ]
+SQL: SELECT * FROM `pa_computing` WHERE ( user_id = "50" and type = "sign" and createtime > "1534521600" ) LIMIT 1   [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.005859s ]
+SQL: SELECT * FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`suanli`,`user_nickname` FROM `pa_personal` ORDER BY suanli desc  [ RunTime:0.000977s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_mining` WHERE ( receive_time > "1534521600" ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_mining` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `number`,`title`,`id` FROM `pa_mining` WHERE ( user_id = "50" and receive = 0 ) ORDER BY createtime desc  [ RunTime:0.000977s ]
+SQL: SELECT number insur,`receive_time`,`title` FROM `pa_mining` WHERE ( user_id = "50" and receive = 1 ) ORDER BY receive_time desc LIMIT 4   [ RunTime:0.000976s ]
+
+[ 2018-08-18T12:15:10+08:00 ] 113.45.74.41 /index.php/Home/index/sign/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.005859s ]
+SQL: SELECT `user_id` FROM `pa_personal` WHERE ( access_token = "8d68c7e395f9a8a462d45ab2ce06b5c7" ) LIMIT 1   [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `pa_computing` [ RunTime:0.006835s ]
+SQL: SELECT * FROM `pa_computing` WHERE ( user_id = "50" and type = "sign" and createtime > "1534521600" ) LIMIT 1   [ RunTime:0.010742s ]
+SQL: INSERT INTO `pa_computing` (`user_id`,`suanli`,`type`,`inout`,`currency`,`createtime`) VALUES (50,1,'签到','in','suanli',1534565710) [ RunTime:0.001953s ]
+

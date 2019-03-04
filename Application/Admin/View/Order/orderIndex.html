@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>订单列表-{$site.SITE_INFO.name}</title>
+        <php>
+            $addCss="";
+            $addJs="";
+            $currentNav ='会员管理 > 订单列表';
+        </php>
+        <include file="Common:intoHead" />
+    </head>
+    <body>
+        <div class="wrap">
+            <include file="Common:head" />
+            <div class="mainBody">
+                <include file="Common:left" />
+                <div id="Right">
+                    <div class="Item hr">
+                        <div class="current">资讯列表</div>
+                    </div>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab">
+                        <thead>
+                            <tr>
+                                <td>订单号</td>
+                                <td>创建时间</td>
+                                <td>老师/机构id</td>
+                                <td>老师/机构名称</td>
+                                <td>方式</td>
+                                <td>消费者id</td>
+                                <td>消费者昵称</td>
+                                <td>金额</td>
+                                <td>个数</td>
+                                <td>总计</td>
+                                <td>比率</td>
+
+                                <!-- <td>状态</td> -->
+                                <td width="150">操作</td>
+                            </tr>
+                        </thead>
+                        <volist name="list" id="vo">
+                            <tr align="center" id="{$vo.id}">
+                                <td align="center">{$vo.order_no}</td>
+                                <td>{$vo.createtime|date="Y-m-d H:i:s",###}</td>
+                                <td>{$vo.user_id}</td>
+                                <td>{$vo.user_name}</td>
+                                <td>{$vo.goods_type}</td>
+                                <td>{$vo.invite_id}</td>
+                                <td>{$vo.invite_name}</td>
+                                <td>{$vo.invite_price}</td>
+                                <td>{$vo.sum}</td>
+                                <td>{$vo.add}</td>
+                                <td>{$vo.rate}</td>
+
+    
+                                <!-- <td>{$vo.starttime|date="Y-m-d H:i:s",###}</td> -->
+                                
+                                <!-- <td><a href="javascript:void(0);" onclick="changeStatus({$vo.id},this)">{$vo.display}</a></td>
+                                <td><a href="javascript:void(0);" onclick="changeAttr({$vo.id},this)"><img src="__PUBLIC__/Img/action_{$vo.is_recommend}.png" border="0"></a>
+                                    </if></td> -->
+                                <td>[ <a link="{:U('Personal/orderDelete/',array('id'=>$vo['id']))}" href="javascript:void(0)" name="{$vo.title}" class="del">删除 </a> ]</td>
+                            </tr>
+                        </volist>
+                        <tr><td colspan="8" align="right"><div class="msdn ">{$page}</div></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <include file="Common:foot" />
+        <script type="text/javascript">
+            $(function(){
+                $(".del").click(function(){
+                    var delLink=$(this).attr("link");
+                    $this = $(this);
+                    popup.confirm('你真的打算删除【<b>'+$(this).attr("name")+'</b>】吗?','温馨提示',function(action){
+                        if(action == 'ok'){
+                            delByLink(delLink,$this);
+                            //top.window.location.href=delLink;
+                            // window.location.reload();
+                        }
+                    });
+                    return false;
+                });
+            });
+            function changeAttr(id,v){
+                $.get('{:U("News/changeAttr")}?id='+id,function(data){
+                    if(data.status==1){
+                        $(v).html(data.info);
+                    }
+                });
+            }
+            function changeStatus(id,v){
+                $.get('{:U("News/changeStatus")}?id='+id,function(data){
+                    if(data.status==1){
+                        $(v).html(data.info);
+                    }
+                });
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>直播管理-{$site.SITE_INFO.name}</title>
+        <php>
+            $addCss="";
+            $addJs="";
+            $currentNav ='直播管理 > 直播列表';
+        </php>
+        <include file="Common:intoHead" />
+    </head>
+    <body>
+        <div class="wrap">
+            <include file="Common:head" />
+            <div class="mainBody">
+                <include file="Common:left" />
+                <div id="Right">
+                    <div class="Item hr">
+                        <div class="current">直播列表</div>
+                    </div>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab">
+                        <thead>
+                            <tr>
+                                <td>房间号</td>
+                                <td>房间标题</td>
+                                <td>主播名</td>
+                                <td>观看人数</td>
+                                <td>直播状态</td>
+                                <td>开播时间</td>
+                                <td>结束时间</td>
+                                <td>总时长</td>
+                                <td width="150">操作</td>
+                            </tr>
+                        </thead>
+                        <volist name="list" id="vo">
+                            <tr align="center" id="{$vo.live_id}">
+                                <td align="center">{$vo.live_no}</td>
+                                <td>{$vo.live_title}</td>
+                                <td>{$vo.username}</td>
+                                <td>{$vo.usernum}</td>
+                                <if condition="$vo['live_play'] eq 1">
+                                <td style="color:green">已开播 </td>
+                                <td>{$vo.live_time|date="Y-m-d H:i:s",###}</td>
+                                <td></td>
+                                <else/>
+                                <td style="color:red">未开播 </td>
+                                <td>{$vo.live_time|date="Y-m-d H:i:s",###}</td>
+                                <td>{$vo.stop_time|date="Y-m-d H:i:s",###}</td>
+                                </if>
+                                <td>{$vo.add_time}</td>
+                                <!-- <td><a href="javascript:void(0);" onclick="changeStatus({$vo.id},this)">{$vo.display}</a></td>
+                                <td><a href="javascript:void(0);" onclick="changeAttr({$vo.id},this)"><img src="__PUBLIC__/Img/action_{$vo.is_recommend}.png" border="0"></a>
+                                    </if></td> -->
+                                <td>[ <a href="__URL__/look/no/{$vo['live_no']}"  target="_blank" >查看直播 </a> ] </td>
+                            </tr>
+                        </volist>
+                        <tr><td colspan="8" align="right">{$page}</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <include file="Common:foot" />
+        <script type="text/javascript">
+            $(function(){
+                $(".del").click(function(){
+                    var delLink=$(this).attr("link");
+                    $this = $(this);
+                    popup.confirm('你真的打算删除【<b>'+$(this).attr("name")+'</b>】吗?','温馨提示',function(action){
+                        if(action == 'ok'){
+                            delByLink(delLink,$this);
+                            //top.window.location.href=delLink;
+                        }
+                    });
+                    return false;
+                });
+            });
+            function changeAttr(id,v){
+                $.get('{:U("News/changeAttr")}?id='+id,function(data){
+                    if(data.status==1){
+                        $(v).html(data.info);
+                    }
+                });
+            }
+            function changeStatus(id,v){
+                $.get('{:U("News/changeStatus")}?id='+id,function(data){
+                    if(data.status==1){
+                        $(v).html(data.info);
+                    }
+                });
+            }
+        </script>
+    </body>
+</html>

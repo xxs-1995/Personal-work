@@ -1,0 +1,142 @@
+[ 2018-08-19T18:07:37+08:00 ] 114.242.248.214 /Index/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM pa_news n [ RunTime:0.000977s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_news n
+SQL: SELECT * FROM pa_news n INNER JOIN pa_category c on c.cid = n.cid  WHERE ( c.name = "头条新闻" )  [ RunTime:0.004883s ]
+
+[ 2018-08-19T18:07:38+08:00 ] 114.242.248.214 /index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.005860s ]
+SQL: SELECT `user_id`,`user_img`,`mineral`,`user_tel`,`suanli`,`user_nickname`,`user_number`,`user_jine`,`dig` FROM `pa_personal` WHERE ( access_token = "111bf4718629f1b6bae04b77ea6583a6" ) LIMIT 1   [ RunTime:0.000977s ]
+
+[ 2018-08-19T18:07:42+08:00 ] 114.242.248.214 /Index/block
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.005859s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` WHERE ( user_type != 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.013672s ]
+SQL: SELECT `id`,`ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "blockworld" ) ORDER BY sort desc LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT `ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "banner" ) ORDER BY sort desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM pa_news n [ RunTime:0.000977s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_news n
+SQL: SELECT `title`,`id` FROM pa_news n INNER JOIN pa_category c on c.cid = n.cid  WHERE ( c.name = "城市公告" )  [ RunTime:0.000000s ]
+SQL: SELECT `title`,`id` FROM pa_news n INNER JOIN pa_category c on c.cid = n.cid  WHERE ( c.name = "BlockWorld挖矿简介" )  [ RunTime:0.000976s ]
+
+[ 2018-08-19T18:07:44+08:00 ] 114.242.248.214 /index.php/Home/My/myMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.005859s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword` FROM `pa_personal` WHERE ( access_token = "111bf4718629f1b6bae04b77ea6583a6" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-08-19T18:07:45+08:00 ] 114.242.248.214 /index.php/Home/My/myMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.004883s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword` FROM `pa_personal` WHERE ( access_token = "111bf4718629f1b6bae04b77ea6583a6" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-08-19T19:40:44+08:00 ] 61.148.243.24 /index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.004882s ]
+SQL: SELECT `user_id`,`user_img`,`mineral`,`user_tel`,`suanli`,`user_nickname`,`user_number`,`user_jine`,`dig` FROM `pa_personal` WHERE ( access_token = "111bf4718629f1b6bae04b77ea6583a6" ) LIMIT 1   [ RunTime:0.000976s ]
+
+[ 2018-08-19T19:40:44+08:00 ] 61.148.243.24 /Index/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM pa_news n [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_news n
+SQL: SELECT * FROM pa_news n INNER JOIN pa_category c on c.cid = n.cid  WHERE ( c.name = "头条新闻" )  [ RunTime:0.002930s ]
+
+[ 2018-08-19T19:40:48+08:00 ] 61.148.243.24 /Index/block
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.004882s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` WHERE ( user_type != 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.004882s ]
+SQL: SELECT `id`,`ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "blockworld" ) ORDER BY sort desc LIMIT 1   [ RunTime:0.000977s ]
+SQL: SELECT `ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "banner" ) ORDER BY sort desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM pa_news n [ RunTime:0.000976s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_news n
+SQL: SELECT `title`,`id` FROM pa_news n INNER JOIN pa_category c on c.cid = n.cid  WHERE ( c.name = "城市公告" )  [ RunTime:0.000000s ]
+SQL: SELECT `title`,`id` FROM pa_news n INNER JOIN pa_category c on c.cid = n.cid  WHERE ( c.name = "BlockWorld挖矿简介" )  [ RunTime:0.000977s ]
+
+[ 2018-08-19T19:40:52+08:00 ] 61.148.243.24 /index.php/Home/My/myMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.004883s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword` FROM `pa_personal` WHERE ( access_token = "111bf4718629f1b6bae04b77ea6583a6" ) LIMIT 1   [ RunTime:0.000976s ]
+
+[ 2018-08-19T19:40:53+08:00 ] 61.148.243.24 /index.php/Home/My/myMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.004883s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword` FROM `pa_personal` WHERE ( access_token = "111bf4718629f1b6bae04b77ea6583a6" ) LIMIT 1   [ RunTime:0.000976s ]
+

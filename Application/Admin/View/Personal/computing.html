@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>课程管理-{$site.SITE_INFO.name}</title>
+        <php>
+            $addCss="";
+            $addJs="";
+            $currentNav ='会员管理 > 佣金列表';
+        </php>
+        <include file="Common:intoHead" />
+    </head>
+    <body>
+        <div class="wrap">
+            <include file="Common:head" />
+            <div class="mainBody">
+                <include file="Common:left" />
+                <div id="Right">
+                    <div class="Item hr">
+                        <div class="current">佣金列表</div>
+                    </div>
+                    <!-- <form action="{:U('Personal/computing')}" method="get">
+                                        类型：
+                                        <select name="type" class="type">
+                                            <option value="">全部</option>
+                                            <option value="1" <php>if($_GET['type']==1)echo selected;</php>>1级销售奖励</option>
+                                            <option value="2" <php>if($_GET['type']==2)echo selected;</php>>2级销售奖励</option>
+                                        </select>
+                                        <input type="hidden" name="user_id" value="<php>echo $_GET['user_id'];</php>"/>
+                                        <input type="date" name="starttime" class="starttime" />
+                                        <input type="date" name="endtime" class="endtime" />
+                                        <input type="submit" value="搜索">
+                            </form> -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab">
+                        <thead>
+                            <tr>
+                                <td>用户id</td>
+                                <td>用户昵称</td>
+                                <td>佣金类型</td>
+                                <td>佣金货币</td>
+                                <td>佣金金额</td>
+                                <td>订单号</td>
+                                <td>创建时间</td>
+                                <!-- <td>状态</td> -->
+                                <td width="150">操作</td>
+                            </tr>
+                        </thead>
+                        <volist name="list" id="vo">
+                            <tr align="center" id="{$vo.id}">
+                                <td>{$vo.user_id}</td>
+                                <td align="center">{$vo.personal.user_nickname}</td>
+                                <td>{$vo.type}</td>
+                                <td>{$vo.currency}</td>
+                                <td>{$vo.suanli}</td>
+                                <td>{$vo.payno}</td>
+                                <td>{$vo.createtime|date="Y-m-d H:i:s",###}</td>
+                                <td>
+                                   [ <a href="{:U('Personal/computing_info/',array('id'=>$vo['id'],'user_id'=>$vo['user_id']))}" >查看 </a> ]
+                                </td>
+                            </tr>
+                        </volist>
+                        <tr><td colspan="8" align="left">
+                            <form action="{:U('Personal/export_with')}" method="post">
+                                        日期：
+                                        <select name="time" class="time">
+                                            <option value="-1">全部</option>
+                                            <option value="1" <php>if($_GET['time']==1)echo selected;</php>>当天</option>
+                                            <option value="2" <php>if($_GET['time']==2)echo selected;</php>>当周</option>
+                                            <option value="3" <php>if($_GET['time']==1)echo selected;</php>>当月</option>
+                                        </select>
+                                        <input type="hidden" name="user_id" value="<php>echo $_GET['user_id'];</php>"/>
+                                        <input type="date" name="starttime" class="starttime" />
+                                        <input type="date" name="endtime" class="endtime" />
+                                        <!-- <input type="submit" value="导出EXCEL"> -->
+                            </form>
+                        </td></td></tr>
+
+                        <tr><td colspan="6" align="right"><div class="msdn ">{$page}</div></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <include file="Common:foot" />
+        <script type="text/javascript">
+            $(function(){
+                var starttime,endtime;
+                starttime = endtime =0
+                $(".starttime").change(function(){
+                     starttime=Date.parse(new Date($(".starttime").val()))/1000;
+                     // var endtime=Date.parse(new Date($(".endtime").val()))/1000;
+                     $(".starttime").val(starttime)
+                      console.log(starttime);
+                })
+                $(".endtime").change(function(){
+                     //var starttime=Date.parse(new Date($(".starttime").val()))/1000;
+                      endtime=Date.parse(new Date($(".endtime").val()))/1000;
+                      $(".endtime").val(endtime)
+                      console.log(endtime);
+                })
+                $(".ok").click(function(){
+                    var delLink=$(this).attr("link");
+                    $this = $(this);
+                    popup.confirm('确定批准?','温馨提示',function(action){
+                        if(action == 'ok'){
+                            delByLink(delLink,$this);
+                            window.location.reload()
+                            //top.window.location.href=delLink;
+                        }
+                    });
+                    return false;
+                });
+                $(".no").click(function(){
+                    var delLink=$(this).attr("link");
+                    $this = $(this);
+                    popup.confirm('确定拒绝?','温馨提示',function(action){
+                        if(action == 'ok'){
+                            delByLink(delLink,$this);
+                            window.location.reload()
+                            //top.window.location.href=delLink;
+                        }
+                    });
+                    return false;
+                });
+            });
+            function changeAttr(id,v){
+                $.get('{:U("News/changeAttr")}?id='+id,function(data){
+                    if(data.status==1){
+                        $(v).html(data.info);
+                    }
+                });
+            }
+            function changeStatus(id,v){
+                $.get('{:U("News/changeStatus")}?id='+id,function(data){
+                    if(data.status==1){
+                        $(v).html(data.info);
+                    }
+                });
+            }
+        </script>
+    </body>
+</html>

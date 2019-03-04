@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>添加、编辑新闻-后台管理-{$site.SITE_INFO.name}</title>
+        <php>
+            $addCss="";
+            $addJs="";
+            $currentNav ='首页 > banner图管理';
+        </php>
+        <include file="Common:intoHead" />
+    </head>
+    <body>
+        <div class="wrap">
+            <include file="Common:head" />
+            <div class="mainBody">
+                <include file="Common:left" />
+                <div id="Right">
+                    <div class="Item hr">
+                        <div class="current">添加Banner图</div>
+                    </div>
+                    <form method="post" action="{:U('bannerAdd')}">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                            <tr>
+                                <th>图片：</th>
+                                <td><input type="text" id="url1" class="input" size="40" name="image" value="{$img_info.savepath}"/>
+                                    <notempty name="img_info"><input type="hidden" name="image_id" value="{$img_info.id}" /></notempty>
+                                    <input type="button" class="btn " id="image1" value="选择图片" /></td>
+                            </tr>
+                        </table>
+                    </form>
+                    <div class="commonBtnArea" >
+                        <button class="btn submit">提交</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <include file="Common:foot" />
+        <js href="--PUBLIC--/kindeditor/kindeditor.js,--PUBLIC--/kindeditor/lang/zh_CN.js"/>
+        <script type="text/javascript">
+            $(function(){var  content ;
+                KindEditor.ready(function(K) {
+                    content = K.create('#content',{
+                        allowFileManager : true,
+                        uploadJson:'--PUBLIC--/kindeditor/php/upload_json.php?dirname=banner'
+                    });
+                });
+               
+                $(".submit").click(function(){
+                    $('form').submit();
+                });
+            });
+        </script>
+        <script>
+            KindEditor.ready(function(K) {
+                var editor = K.editor({
+                    allowFileManager : true,
+                    uploadJson:'--PUBLIC--/kindeditor/php/upload_json.php?dirname=banner'
+                });
+                K('#image1').click(function() {
+                    editor.loadPlugin('image', function() {
+                        editor.plugin.imageDialog({
+                            imageUrl : K('#url1').val(),
+                            clickFn : function(url, title, width, height, border, align) {
+                                K('#url1').val(url);
+                                editor.hideDialog();
+                            }
+                        });
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+[ 2018-08-11T02:35:36+08:00 ] 47.92.104.107 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001952s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006834s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: access_token E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SELECT `user_id`,`user_img`,`mineral`,`user_tel`,`suanli`,`user_nickname`,`user_number`,`user_jine`,`dig` FROM `pa_personal` WHERE ( access_token = "" ) LIMIT 1   [ RunTime:0.000976s ]
+
+[ 2018-08-11T15:39:28+08:00 ] 42.236.10.114 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003907s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.008790s ]
+NOTIC: [8] Undefined index: access_token E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SELECT `user_id`,`user_img`,`mineral`,`user_tel`,`suanli`,`user_nickname`,`user_number`,`user_jine`,`dig` FROM `pa_personal` WHERE ( access_token = "" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-08-11T15:39:35+08:00 ] 180.163.220.61 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.008791s ]
+NOTIC: [8] Undefined index: access_token E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SELECT `user_id`,`user_img`,`mineral`,`user_tel`,`suanli`,`user_nickname`,`user_number`,`user_jine`,`dig` FROM `pa_personal` WHERE ( access_token = "" ) LIMIT 1   [ RunTime:0.000976s ]
+

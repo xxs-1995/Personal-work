@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <!-- <link rel="stylesheet" href="css/reset.css"/> -->
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/ionic.css"/>
+   <!--  <link rel="stylesheet" href="css/paixu.css"/>
+    <link rel="stylesheet" href="css/header.css"> -->
+    <script src="__PUBLIC__/Home/js/jquery-1.7.2.min.js"></script>
+    <style>
+.bar-header{
+    background-color:#01082E; 
+} 
+#geren{
+     color: #fff;   
+}
+.chongyu-ul1{
+       /* margin-top: 43px; */
+    width: 100%;
+    height: 165px;
+    background-image: url(__PUBLIC__/Home/img/back.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+.ul1{
+        width: 80%;
+    margin-left: 10%;
+    padding-top: 10px;
+}
+.ul1 li{
+        margin-top: 12px;
+        font-size: 16px;
+}
+.ul2 img{
+    display: inline-block;
+    width:8%;
+    vertical-align: middle;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.ul2 div{
+   padding-left: 18%;
+   margin-bottom: 10px;
+   padding-right: 5%;
+}
+.title{
+    color: #25A2B8;
+    font-size: 20px;
+}
+.beijing{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-image: url(/Public/Home/img/b.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+</style>
+</head>
+<body>
+<!-- <div class="bar bar-header">
+    <button class="icon ion-chevron-left" style="background-color: transparent;border:0;color: #fff;z-index: 100" id="quxiao" onclick="history.go(-1)"></button>
+    <div class="h1 title" id="geren">算力攻略</div>
+      
+</div> -->
+<ul class="chongyu-ul1">
+    <ul class="ul1">
+        <li> · 算例越高，挖宝挖到的宝藏越多</li>
+        <li> · 通过完善身份的方式，可快读提高算例</li>
+        <li> · 除算力外，还有一些其他因子影响挖宝效率</li>
+    </ul>
+</ul>
+<p style="text-align: center;"><img src="__PUBLIC__/Home/img/img (2).jpg" alt="" style="display: inline-block;
+    width: 43%;">
+</p>
+<ul class="ul2">
+    <volist name="art" id="vo">
+        <li>   
+            
+            <span class="beijing">{$i}</span><span class="title">{$vo.title}</span>
+            <div>
+                {$vo.content}
+            </div>
+        </li>
+    </volist>
+</ul>
+</body>
+
+
+</html>

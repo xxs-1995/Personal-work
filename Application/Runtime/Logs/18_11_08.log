@@ -1,0 +1,3041 @@
+[ 2018-11-08T08:58:04+08:00 ] 127.0.0.1 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T08:58:05+08:00 ] 127.0.0.1 /index.php/conist/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T08:58:05+08:00 ] 127.0.0.1 /index.php/conist/Public/verify_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T08:58:05+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.012000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014000s ]
+ERR: 无法加载控制器:Favicon
+
+[ 2018-11-08T08:58:11+08:00 ] 127.0.0.1 /index.php/conist/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.028002s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.007001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_admin` WHERE ( `email`='bigqig@126.com' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `pa_admin` WHERE ( `email`='bigqig@126.com' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_admin` WHERE ( `email` = 'bigqig@126.com' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T08:58:13+08:00 ] 127.0.0.1 /index.php/conist/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.058004s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caches F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T08:58:14+08:00 ] 127.0.0.1 /index.php/conist/SysData/backup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.008000s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.298017s ]
+
+[ 2018-11-08T08:58:20+08:00 ] 127.0.0.1 /index.php/conist/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_news` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`title`,`status`,`published`,`cid`,`aid`,`is_recommend` FROM `pa_news` ORDER BY `published` DESC LIMIT 0 , 15   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.006001s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.006000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 4 F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 23 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T08:58:21+08:00 ] 127.0.0.1 /index.php/conist/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caches F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T08:58:21+08:00 ] 127.0.0.1 /index.php/conist/SysData/backup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.008001s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.026001s ]
+
+[ 2018-11-08T08:58:22+08:00 ] 127.0.0.1 /index.php/conist/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.006001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_news` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`title`,`status`,`published`,`cid`,`aid`,`is_recommend` FROM `pa_news` ORDER BY `published` DESC LIMIT 0 , 15   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.006001s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 4 F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 23 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T08:58:22+08:00 ] 127.0.0.1 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_product` WHERE ( `status` IN ('0','1') ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`title`,`status`,`psize`,`published`,`cid`,`price`,`release`,`aid`,`is_recommend`,`lang`,`wap_display` FROM `pa_product` WHERE ( `status` IN ('0','1') ) ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.006000s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T08:58:24+08:00 ] 127.0.0.1 /index.php/conist/Siteinfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_nav` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `pa_nav`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Org\Util\Category.class.php 第 64 行.
+NOTIC: [8] Undefined property: Org\Util\Category::$formatList F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Org\Util\Category.class.php 第 119 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T08:58:26+08:00 ] 127.0.0.1 /index.php/conist/Siteinfo/file_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T08:58:26+08:00 ] 127.0.0.1 /Public/Css/images/ui-bg_flat_75_ffffff_40x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2018-11-08T08:58:26+08:00 ] 127.0.0.1 /Public/Css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载控制器:Public
+
+[ 2018-11-08T08:58:26+08:00 ] 127.0.0.1 /Public/Css/images/ui-icons_222222_256x240.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Public
+
+[ 2018-11-08T08:58:26+08:00 ] 127.0.0.1 /Public/Css/images/ui-bg_flat_0_aaaaaa_40x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Public
+
+[ 2018-11-08T08:58:26+08:00 ] 127.0.0.1 /Public/Css/images/ui-bg_glass_75_e6e6e6_1x400.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+ERR: 无法加载控制器:Public
+
+[ 2018-11-08T08:58:26+08:00 ] 127.0.0.1 /Public/Css/images/ui-bg_glass_75_dadada_1x400.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Public
+
+[ 2018-11-08T08:58:30+08:00 ] 127.0.0.1 /index.php/conist/Siteinfo/page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_page` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_page` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`unique_id`,`page_name`,`display` FROM `pa_page` ORDER BY id desc LIMIT 0, 12   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T08:58:32+08:00 ] 127.0.0.1 /index.php/conist/Siteinfo/adindex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.006001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_ad` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `pa_ad` ORDER BY sort DESC LIMIT 0, 10   [ RunTime:0.011000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T08:58:32+08:00 ] 127.0.0.1 /Uploads/picture/5b43486b0e6a9.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:32+08:00 ] 127.0.0.1 /Uploads/picture/5b43485bf34c5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:32+08:00 ] 127.0.0.1 /Uploads/picture/5bab29f760097.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:32+08:00 ] 127.0.0.1 /Uploads/picture/5b0695916d87f.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:32+08:00 ] 127.0.0.1 /Uploads/picture/5b4349bbdc68f.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:32+08:00 ] 127.0.0.1 /Uploads/picture/5b434b16160bb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:41+08:00 ] 127.0.0.1 /index.php/conist/Siteinfo/agreement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_agreement` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `pa_agreement` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 模板不存在:./Application/Admin/View/Siteinfo/agreement.html
+
+[ 2018-11-08T08:58:43+08:00 ] 127.0.0.1 /Uploads/picture/5b0695916d87f.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:43+08:00 ] 127.0.0.1 /Uploads/picture/5b43485bf34c5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:43+08:00 ] 127.0.0.1 /Uploads/picture/5b4349bbdc68f.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:43+08:00 ] 127.0.0.1 /Uploads/picture/5b43486b0e6a9.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:43+08:00 ] 127.0.0.1 /Uploads/picture/5bab29f760097.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:43+08:00 ] 127.0.0.1 /Uploads/picture/5b434b16160bb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:44+08:00 ] 127.0.0.1 /index.php/conist/Siteinfo/agreement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_agreement` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `pa_agreement` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 模板不存在:./Application/Admin/View/Siteinfo/agreement.html
+
+[ 2018-11-08T08:58:45+08:00 ] 127.0.0.1 /Uploads/picture/5b43485bf34c5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:45+08:00 ] 127.0.0.1 /Uploads/picture/5b43486b0e6a9.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:45+08:00 ] 127.0.0.1 /Uploads/picture/5bab29f760097.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:45+08:00 ] 127.0.0.1 /Uploads/picture/5b0695916d87f.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:45+08:00 ] 127.0.0.1 /Uploads/picture/5b4349bbdc68f.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:46+08:00 ] 127.0.0.1 /Uploads/picture/5b434b16160bb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Uploads
+
+[ 2018-11-08T08:58:46+08:00 ] 127.0.0.1 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_product` WHERE ( `status` IN ('0','1') ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`title`,`status`,`psize`,`published`,`cid`,`price`,`release`,`aid`,`is_recommend`,`lang`,`wap_display` FROM `pa_product` WHERE ( `status` IN ('0','1') ) ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.006000s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.006001s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T08:58:47+08:00 ] 127.0.0.1 /index.php/conist/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_news` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.006001s ]
+SQL: SELECT `id`,`title`,`status`,`published`,`cid`,`aid`,`is_recommend` FROM `pa_news` ORDER BY `published` DESC LIMIT 0 , 15   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.006000s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.006001s ]
+SQL: SELECT `cid`,`name` FROM `pa_category`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 4 F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 23 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T08:58:48+08:00 ] 127.0.0.1 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_product` WHERE ( `status` IN ('0','1') ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`title`,`status`,`psize`,`published`,`cid`,`price`,`release`,`aid`,`is_recommend`,`lang`,`wap_display` FROM `pa_product` WHERE ( `status` IN ('0','1') ) ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.006000s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.006000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T08:58:49+08:00 ] 127.0.0.1 /index.php/conist/Siteinfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_nav` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `pa_nav`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Org\Util\Category.class.php 第 64 行.
+NOTIC: [8] Undefined property: Org\Util\Category::$formatList F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Org\Util\Category.class.php 第 119 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T08:58:50+08:00 ] 127.0.0.1 /index.php/conist/Siteinfo/pay_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_pay` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `pa_pay`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\38c30ef4c1bd995af690e5ed3cb37d4b.php 第 53 行.
+NOTIC: [8] Undefined variable: page F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\38c30ef4c1bd995af690e5ed3cb37d4b.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T08:58:53+08:00 ] 127.0.0.1 /index.php/conist/Siteinfo/pay_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T09:11:41+08:00 ] 127.0.0.1 /index.php/home/VipController/wallet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:VipController
+
+[ 2018-11-08T09:12:15+08:00 ] 127.0.0.1 /index.php/Home/VipController/wallet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:VipController
+
+[ 2018-11-08T09:12:30+08:00 ] 127.0.0.1 /index.php/Home/Vip/wallet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-08T09:12:59+08:00 ] 127.0.0.1 /index.php/Home/Vip/wallet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.007001s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 8 行.
+SQL: SELECT * FROM `pa_user` WHERE ( user_id ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'user_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pa_user` WHERE ( user_id ) LIMIT 1  
+
+[ 2018-11-08T11:37:26+08:00 ] 127.0.0.1 /index.php/Home/VIP/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:VIP
+
+[ 2018-11-08T11:37:34+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T11:38:32+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T11:39:14+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T11:39:54+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T11:41:24+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T11:41:35+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T11:42:34+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T11:42:54+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T11:44:18+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T11:45:56+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T11:46:03+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T11:56:50+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T11:58:06+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-11-08T11:58:32+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T11:58:46+08:00 ] 127.0.0.1 /index.php/Home/Vip/wallet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 57 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `pa_user` WHERE ( id ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.007000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pa_bill`
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < and add_time > and state = 0 and state = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and add_time > and state = 0 and state = 2 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < and add_time > and state = 0 and state = 2 ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 0 and state = 2  ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 0 and state = 2  ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 0 and state = 2  ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 0 and state = 2  ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and  ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and  ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and  ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and  ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and  ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and  ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `pa_distribution` [ RunTime:0.008001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_distribution` WHERE ( superior_id ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( user_id ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'user_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pa_user` WHERE ( user_id ) LIMIT 1  
+
+[ 2018-11-08T12:02:32+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T12:03:09+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 62 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T13:40:18+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T13:40:28+08:00 ] 127.0.0.1 /index.php/Home/Vip/wallet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 61 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `pa_user` WHERE ( id ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.007000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pa_bill`
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1541692800' and add_time >'1541606400' and state = 0 and state = 2 and user_id = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1541692800' and add_time >'1541606400' and state = 0 and state = 2 and user_id = '1' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1543593600' and add_time >'1541001600' and state = 0 and state = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1543593600' and add_time >'1541001600' and state = 0 and state = 2 ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 0 and state = 2 and user_id = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 0 and state = 2 and user_id = '1' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and modify_time > '1541606400' and modify_time < '1541692800' ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and modify_time > '1541606400' and modify_time < '1541692800' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and modify_time > '1541001600' and modify_time < '1543593600' ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and modify_time > '1541001600' and modify_time < '1543593600' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1'  ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1'  ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `pa_distribution` [ RunTime:0.007001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_distribution` WHERE ( superior_id ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( user_id ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'user_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pa_user` WHERE ( user_id ) LIMIT 1  
+
+[ 2018-11-08T13:40:58+08:00 ] 127.0.0.1 /index.php/Home/Vip/wallet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 61 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( id ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.009001s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pa_bill`
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1541692800' and add_time >'1541606400' and state = 0 and state = 2 and user_id = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1541692800' and add_time >'1541606400' and state = 0 and state = 2 and user_id = '1' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1543593600' and add_time >'1541001600' and state = 0 and state = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1543593600' and add_time >'1541001600' and state = 0 and state = 2 ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 0 and state = 2 and user_id = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 0 and state = 2 and user_id = '1' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and modify_time > '1541606400' and modify_time < '1541692800' ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and modify_time > '1541606400' and modify_time < '1541692800' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and modify_time > '1541001600' and modify_time < '1543593600' ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and modify_time > '1541001600' and modify_time < '1543593600' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1'  ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1'  ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `pa_distribution` [ RunTime:0.009001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_distribution` WHERE ( superior_id ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( user_id ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'user_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pa_user` WHERE ( user_id ) LIMIT 1  
+
+[ 2018-11-08T13:41:23+08:00 ] 127.0.0.1 /index.php/Home/Vip/wallet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 61 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `pa_user` WHERE ( id ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.006000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pa_bill`
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1541692800' and add_time >'1541606400' and state = 0 and state = 2 and user_id = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1541692800' and add_time >'1541606400' and state = 0 and state = 2 and user_id = '1' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1543593600' and add_time >'1541001600' and state = 0 and state = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1543593600' and add_time >'1541001600' and state = 0 and state = 2 ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 0 and state = 2 and user_id = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 0 and state = 2 and user_id = '1' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and modify_time > '1541606400' and modify_time < '1541692800' ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and modify_time > '1541606400' and modify_time < '1541692800' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and modify_time > '1541001600' and modify_time < '1543593600' ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1' and modify_time > '1541001600' and modify_time < '1543593600' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1'  ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '1'  ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `pa_distribution` [ RunTime:0.006001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_distribution` WHERE ( superior_id ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( id ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-11-08T14:15:10+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T14:15:51+08:00 ] 127.0.0.1 /index.php/Home/Vip/wallet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 53 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( id ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.006001s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pa_bill`
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1541692800' and add_time >'1541606400' and state = 0 and state = 2 and user_id = '115' ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1541692800' and add_time >'1541606400' and state = 0 and state = 2 and user_id = '115' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1543593600' and add_time >'1541001600' and state = 0 and state = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( add_time < '1543593600' and add_time >'1541001600' and state = 0 and state = 2 ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 0 and state = 2 and user_id = '115' ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 0 and state = 2 and user_id = '115' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '115' and modify_time > '1541606400' and modify_time < '1541692800' ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '115' and modify_time > '1541606400' and modify_time < '1541692800' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '115' and modify_time > '1541001600' and modify_time < '1543593600' ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '115' and modify_time > '1541001600' and modify_time < '1543593600' ) LIMIT 1  
+SQL: SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '115'  ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SELECT SUM(amount) AS tp_sum FROM `pa_bill` WHERE ( state = 1 and user_id = '115'  ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `pa_distribution` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_distribution` WHERE ( superior_id ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( id ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-11-08T14:26:22+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T14:26:42+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T14:27:36+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-11-08T14:27:46+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T14:27:53+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T14:29:40+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+
+[ 2018-11-08T14:30:01+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T14:30:07+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T14:30:30+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+NOTIC: [8] Use of undefined constant microtime - assumed 'microtime' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 6 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T14:31:51+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T14:31:58+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T14:32:09+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+NOTIC: [8] Use of undefined constant microtime - assumed 'microtime' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 6 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T14:32:16+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+NOTIC: [8] Use of undefined constant microtime - assumed 'microtime' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 6 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T14:32:29+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T14:35:13+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T14:35:21+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T14:35:29+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-11-08T14:38:13+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T14:40:40+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T14:40:53+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T14:49:46+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T14:49:47+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T14:49:48+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T14:49:49+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T14:49:49+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T14:49:50+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T14:49:50+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T15:16:22+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: uniqid F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T15:16:40+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: uniqid F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T15:16:47+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: uniqid F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T15:16:56+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 54 行.
+NOTIC: [2] date() expects at least 1 parameter, 0 given F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 6 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T15:17:26+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T15:18:00+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T15:18:05+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T15:18:57+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T15:19:10+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T15:34:36+08:00 ] 127.0.0.1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-08T15:35:02+08:00 ] 127.0.0.1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: password F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 126 行.
+NOTIC: [8] Undefined index: nickname F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 128 行.
+NOTIC: [8] Undefined index: tel F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 133 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.008000s ]
+ERR: 错误的查询条件:[tel=>]
+
+[ 2018-11-08T15:36:14+08:00 ] 127.0.0.1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: nickname F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 128 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.007001s ]
+ERR: 错误的查询条件:[tel=>18525425721]
+
+[ 2018-11-08T16:12:47+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:13:13+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 57 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.007001s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pa_bill`
+SQL: INSERT INTO `pa_bill` (`id`) VALUES (1) [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : INSERT INTO `pa_bill` (`id`) VALUES (1)
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:13:46+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 57 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.007000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pa_bill`
+SQL: INSERT INTO `pa_bill` (`user_id`) VALUES (1) [ RunTime:0.001000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : INSERT INTO `pa_bill` (`user_id`) VALUES (1)
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T16:14:26+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 57 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.007001s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pa_bill`
+ERR: Think\Model:insert方法不存在！
+
+[ 2018-11-08T16:14:34+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 57 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.006001s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pa_bill`
+SQL: UPDATE `pa_bill` SET `user_id`=1 WHERE ( id= 1 ) [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : UPDATE `pa_bill` SET `user_id`=1 WHERE ( id= 1 )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:26:44+08:00 ] 127.0.0.1 /index.php/conist/Siteinfo/pay_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:26:47+08:00 ] 127.0.0.1 /index.php/conist/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T16:26:47+08:00 ] 127.0.0.1 /index.php/conist/Public/verify_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:41:30+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 60 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.007001s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pa_bill`
+SQL: INSERT INTO `pa_bill` (`user_id`,`task_id`,`bill_name`,`amount`) VALUES (1,1,1,1) [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : INSERT INTO `pa_bill` (`user_id`,`task_id`,`bill_name`,`amount`) VALUES (1,1,1,1)
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:41:39+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 60 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.006000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pa_bill`
+SQL: INSERT INTO `pa_bill` (`user_id`,`task_id`,`bill_name`,`amount`) VALUES (1,1,1,1) [ RunTime:0.001000s ]
+ERR: 1146:Table 'intelligencemine.pa_bill' doesn't exist
+ [ SQL语句 ] : INSERT INTO `pa_bill` (`user_id`,`task_id`,`bill_name`,`amount`) VALUES (1,1,1,1)
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T16:43:42+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 60 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.008001s ]
+SQL: INSERT INTO `pa_bill` (`user_id`,`task_id`,`bill_name`,`amount`) VALUES (1,1,1,1) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:43:46+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 60 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.007000s ]
+SQL: INSERT INTO `pa_bill` (`user_id`,`task_id`,`bill_name`,`amount`) VALUES (1,1,1,1) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:43:46+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 60 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.009001s ]
+SQL: INSERT INTO `pa_bill` (`user_id`,`task_id`,`bill_name`,`amount`) VALUES (1,1,1,1) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:43:47+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 60 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.007000s ]
+SQL: INSERT INTO `pa_bill` (`user_id`,`task_id`,`bill_name`,`amount`) VALUES (1,1,1,1) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:43:48+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 60 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.007000s ]
+SQL: INSERT INTO `pa_bill` (`user_id`,`task_id`,`bill_name`,`amount`) VALUES (1,1,1,1) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-11-08T16:43:48+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 60 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_bill` [ RunTime:0.007000s ]
+SQL: INSERT INTO `pa_bill` (`user_id`,`task_id`,`bill_name`,`amount`) VALUES (1,1,1,1) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:56:59+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: length F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 6 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T16:57:07+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: length F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 6 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:57:08+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: length F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 6 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:57:08+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: length F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 6 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:57:09+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: length F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 6 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:57:09+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: length F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 6 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:57:09+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: length F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 6 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T16:58:07+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T16:58:25+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:04:08+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:04:17+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:04:18+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:04:19+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:04:20+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:04:20+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:04:21+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:04:21+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:04:21+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:04:22+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:04:22+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:04:22+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:04:23+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:04:54+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:05:16+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:05:41+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:05:46+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:06:21+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:15:20+08:00 ] 127.0.0.1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `pa_user` WHERE ( tel = "18525425721" and password = "a3f0bec59cebeb60553ec80bbfd5dfdf" ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:15:37+08:00 ] 127.0.0.1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: password F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 130 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( tel = "18525425721" and password = "d41d8cd98f00b204e9800998ecf8427e" ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:15:54+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:16:16+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:16:50+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: data F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 68 行.
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:17:28+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: data F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 68 行.
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:17:33+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: data F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 68 行.
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:17:38+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: data F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 68 行.
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:18:04+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.013001s ]
+NOTIC: [8] Undefined variable: data F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 68 行.
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:18:24+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:19:20+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:19:38+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:20:05+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:20:54+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:21:03+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:21:59+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:22:00+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:22:20+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:22:29+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:22:41+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:10+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:23+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:46+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:46+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:46+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:47+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:47+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:47+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:48+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:48+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:48+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:49+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:49+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:49+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:50+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:23:50+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:24:00+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:24:01+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:24:01+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:24:01+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:24:02+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:24:02+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:24:02+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:24:03+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:24:03+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:24:03+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:24:41+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+
+[ 2018-11-08T17:27:12+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( my_code )  [ RunTime:0.001000s ]
+
+[ 2018-11-08T17:27:39+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( my_code )  [ RunTime:0.000000s ]
+
+[ 2018-11-08T17:28:29+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( my_code )  [ RunTime:0.001000s ]
+SQL: INSERT INTO `pa_user` (`my_code`,`tel`,`registertime`,`password`,`nickname`) VALUES ('b673b6449c2f7d13','18525425721',1541669308,'a3f0bec59cebeb60553ec80bbfd5dfdf','5721i63Fqz') [ RunTime:0.085005s ]
+NOTIC: [8] Undefined variable: res_invitation F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `pa_user_invitation` [ RunTime:0.011000s ]
+SQL: INSERT INTO `pa_user_invitation` (`user_id`,`invitation_id`,`add_time`) VALUES (2,null,1541669309) [ RunTime:0.000000s ]
+ERR: 1048:Column 'invitation_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `pa_user_invitation` (`user_id`,`invitation_id`,`add_time`) VALUES (2,null,1541669309)
+
+[ 2018-11-08T17:29:31+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `pa_user` WHERE ( invitation_code ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( my_code )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `pa_user` (`my_code`,`tel`,`registertime`,`password`,`nickname`) VALUES ('d1954578b0df2f38','18525425722',1541669370,'a3f0bec59cebeb60553ec80bbfd5dfdf','5722UI5Y8o') [ RunTime:0.084005s ]
+SQL: SHOW COLUMNS FROM `pa_user_invitation` [ RunTime:0.007000s ]
+SQL: INSERT INTO `pa_user_invitation` (`user_id`,`invitation_id`,`add_time`) VALUES (3,null,1541669371) [ RunTime:0.001000s ]
+ERR: 1048:Column 'invitation_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `pa_user_invitation` (`user_id`,`invitation_id`,`add_time`) VALUES (3,null,1541669371)
+
+[ 2018-11-08T17:29:38+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( invitation_code ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( my_code )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `pa_user` (`my_code`,`tel`,`registertime`,`password`,`nickname`) VALUES ('b626d93fd976af95','18525425723',1541669378,'a3f0bec59cebeb60553ec80bbfd5dfdf','5723GheTcj') [ RunTime:0.087004s ]
+SQL: SHOW COLUMNS FROM `pa_user_invitation` [ RunTime:0.006001s ]
+SQL: INSERT INTO `pa_user_invitation` (`user_id`,`invitation_id`,`add_time`) VALUES (4,null,1541669378) [ RunTime:0.001000s ]
+ERR: 1048:Column 'invitation_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `pa_user_invitation` (`user_id`,`invitation_id`,`add_time`) VALUES (4,null,1541669378)
+
+[ 2018-11-08T17:30:56+08:00 ] 127.0.0.1 /index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: invitation_code F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `pa_user` WHERE ( invitation_code ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( tel ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `pa_user` WHERE ( my_code )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `pa_user` (`my_code`,`tel`,`registertime`,`password`,`nickname`) VALUES ('7fa769ece8d93a13','18525425729',1541669456,'a3f0bec59cebeb60553ec80bbfd5dfdf','5729b5Cl4a') [ RunTime:0.096005s ]
+

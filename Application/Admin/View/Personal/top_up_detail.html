@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>网站后台-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+        $addJs="";
+        $currentNav ='会员列表 > 充值详细信息';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+<div class="wrap"> <include file="Common:head" />
+    <div class="mainBody"> <include file="Common:left" />
+        <div id="Right">
+            <div class="contentArea">
+                <div class="Item hr">
+                    <div class="current">充值详细信息</div>
+                </div>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                        <tr>
+                            <th>充值单号:</th>
+                            <td>{$info['number']}</td>
+                        </tr>
+                        <tr>
+                            <th>会员账号:</th>
+                            <td>{$info.user_tel}</td>
+                        </tr>
+                        <tr>
+                            <th>昵称:</th>
+                            <td>{$info.user_nickname}</td>
+                        </tr>
+                        <tr>
+                            <th>充值{$Think.config.coin}金额:</th>
+                            <td>{$info.bow_money}</td>
+                        </tr>
+                        <tr>
+                            <th>所用ZEC金额:</th>
+                            <td>{$info.zec_money}</td>
+                        </tr>
+                        <tr>
+                            <th>企业账户地址:</th>
+                            <td>{$info.pay_code}</td>
+                        </tr>
+                        <tr>
+                            <th>状态:</th>
+                            <td><if condition = "$info.status == 0">待审核<elseif condition="$info.status == 1"/>已批准<else/>已拒绝</if></td>
+                        </tr>
+                        <tr>
+                            <th>支付凭证:</th>
+                            <td><if condition = "$info.is_voucher == 0">未上传<elseif condition="$info.is_voucher == 1"/><img src="{$info.voucher}" width="200" height="150"></if></td>
+                        </tr>
+                    </table>
+                    <input type="hidden" name="user_id" value="{$info.user_id}"/>
+                    <!-- <div class="commonBtnArea" >
+                        <button class="btn submit">提交</button>
+                    </div> -->
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<include file="Common:foot" />
+<script type="text/javascript">
+    $(function(){
+        $(".submit").click(function(){
+            $('form').submit();
+        });
+    });
+</script>
+</body>
+</html>

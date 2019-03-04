@@ -1,0 +1,91 @@
+[ 2018-11-09T09:21:44+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+
+[ 2018-11-09T09:22:05+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-11-09T09:22:26+08:00 ] 127.0.0.1 /index.php/Home/Vip/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\VipController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\VipController.class.php 第 174 行.
+
+[ 2018-11-09T11:31:38+08:00 ] 127.0.0.1 /index.php/Home/My/taskVoucher
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\MyController.class.php 第 133 行.
+NOTIC: [8] Undefined index: task_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\MyController.class.php 第 134 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024001s ]
+
+[ 2018-11-09T11:33:20+08:00 ] 127.0.0.1 /index.php/Home/My/taskVoucher
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\MyController.class.php 第 133 行.
+NOTIC: [8] Undefined index: task_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\MyController.class.php 第 134 行.
+
+[ 2018-11-09T14:04:09+08:00 ] 127.0.0.1 /index.php/Home/My/friend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-09T14:04:26+08:00 ] 127.0.0.1 /index.php/Home/My/friend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-09T14:04:35+08:00 ] 127.0.0.1 /index.php/Home/My/friend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\MyController.class.php 第 181 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.011001s ]
+SQL: SELECT `user_id` FROM `pa_user` WHERE ( invitation_id )  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'user_id' in 'field list'
+ [ SQL语句 ] : SELECT `user_id` FROM `pa_user` WHERE ( invitation_id ) 
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( invitation_id ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invitation_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( invitation_id ) LIMIT 1  
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\MyController.class.php 第 184 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\PHPTutorial\WWW\zxk\Application\Home\Controller\MyController.class.php 第 190 行.
+

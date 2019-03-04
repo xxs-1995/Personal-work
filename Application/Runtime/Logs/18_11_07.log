@@ -1,0 +1,2129 @@
+[ 2018-11-07T19:36:37+08:00 ] 127.0.0.1 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:36:37+08:00 ] 127.0.0.1 /index.php/conist/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-07T19:36:38+08:00 ] 127.0.0.1 /index.php/conist/Public/verify_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:36:38+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.024002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025002s ]
+ERR: 无法加载控制器:Favicon
+
+[ 2018-11-07T19:36:45+08:00 ] 127.0.0.1 /index.php/conist/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_admin` WHERE ( `email`='bigqig@126.com' ) LIMIT 1   [ RunTime:0.017001s ]
+SQL: SELECT * FROM `pa_admin` WHERE ( `email`='bigqig@126.com' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_admin` WHERE ( `email` = 'bigqig@126.com' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:36:48+08:00 ] 127.0.0.1 /index.php/conist/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.008001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caches F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:36:48+08:00 ] 127.0.0.1 /index.php/conist/SysData/backup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.011000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.008001s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.079005s ]
+
+[ 2018-11-07T19:39:08+08:00 ] 127.0.0.1 /index.php/conist/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.014001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.013001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_news` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`title`,`status`,`published`,`cid`,`aid`,`is_recommend` FROM `pa_news` ORDER BY `published` DESC LIMIT 0 , 15   [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.007001s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 4 F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 23 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:39:09+08:00 ] 127.0.0.1 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.009001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_product` WHERE ( `status` IN ('0','1') ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.008001s ]
+SQL: SELECT `id`,`title`,`status`,`psize`,`published`,`cid`,`price`,`release`,`aid`,`is_recommend`,`lang`,`wap_display` FROM `pa_product` WHERE ( `status` IN ('0','1') ) ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.007000s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.008001s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:39:29+08:00 ] 127.0.0.1 /index.php/conist/Personal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.007001s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 20 行.
+SQL: SELECT * FROM `pa_user` LIMIT 0, 8   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 22 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( recommend = "" ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'recommend' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( recommend = "" ) LIMIT 1  
+NOTIC: [8] Undefined index: recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 51 行.
+NOTIC: [8] Undefined index: user_sex F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 91 行.
+NOTIC: [8] Undefined index: user_img F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 97 行.
+NOTIC: [8] Undefined index: user_attendschool F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 99 行.
+NOTIC: [8] Undefined index: user_school F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 101 行.
+NOTIC: [8] Undefined index: user_type F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 107 行.
+NOTIC: [8] Undefined index: user_academic F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 109 行.
+NOTIC: [8] Undefined index: user_artdirection F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 111 行.
+NOTIC: [8] Undefined index: user_achievement F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 113 行.
+NOTIC: [8] Undefined index: user_introduce F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 123 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 127 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 128 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 129 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 130 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 131 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 132 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 133 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 141 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 142 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:39:31+08:00 ] 127.0.0.1 /index.php/conist/Personal/userLevel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `pa_user_level` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `pa_user_level` ORDER BY id desc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 51 行.
+NOTIC: [8] Undefined index: user_sex F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 95 行.
+NOTIC: [8] Undefined index: user_img F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 101 行.
+NOTIC: [8] Undefined index: user_attendschool F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 103 行.
+NOTIC: [8] Undefined index: user_school F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 105 行.
+NOTIC: [8] Undefined index: user_type F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 108 行.
+NOTIC: [8] Undefined index: user_academic F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 110 行.
+NOTIC: [8] Undefined index: user_artdirection F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 112 行.
+NOTIC: [8] Undefined index: user_achievement F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 114 行.
+NOTIC: [8] Undefined index: is_auth F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 116 行.
+NOTIC: [8] Undefined index: user_introduce F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 124 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 128 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 129 行.
+NOTIC: [8] Undefined index: user_sex F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 95 行.
+NOTIC: [8] Undefined index: user_img F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 101 行.
+NOTIC: [8] Undefined index: user_attendschool F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 103 行.
+NOTIC: [8] Undefined index: user_school F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 105 行.
+NOTIC: [8] Undefined index: user_type F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 108 行.
+NOTIC: [8] Undefined index: user_academic F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 110 行.
+NOTIC: [8] Undefined index: user_artdirection F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 112 行.
+NOTIC: [8] Undefined index: user_achievement F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 114 行.
+NOTIC: [8] Undefined index: is_auth F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 116 行.
+NOTIC: [8] Undefined index: user_introduce F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 124 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 128 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 129 行.
+NOTIC: [8] Undefined index: user_sex F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 95 行.
+NOTIC: [8] Undefined index: user_img F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 101 行.
+NOTIC: [8] Undefined index: user_attendschool F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 103 行.
+NOTIC: [8] Undefined index: user_school F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 105 行.
+NOTIC: [8] Undefined index: user_type F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 108 行.
+NOTIC: [8] Undefined index: user_academic F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 110 行.
+NOTIC: [8] Undefined index: user_artdirection F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 112 行.
+NOTIC: [8] Undefined index: user_achievement F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 114 行.
+NOTIC: [8] Undefined index: is_auth F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 116 行.
+NOTIC: [8] Undefined index: user_introduce F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 124 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 128 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 129 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 138 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 139 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 140 行.
+NOTIC: [8] Undefined variable: page F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:39:46+08:00 ] 127.0.0.1 /index.php/conist/Personal/withdrawals
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 422 行.
+SQL: SHOW COLUMNS FROM pa_withdrawals w [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'w' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_withdrawals w
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 425 行.
+SQL: SELECT COUNT(*) AS tp_count FROM pa_withdrawals w LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 428 行.
+SQL: SELECT w.*,p.user_nickname,e.label,e.pay_code FROM pa_withdrawals w INNER JOIN pa_personal p on w.user_id=p.user_id INNER JOIN pa_e_wallet e on w.e_wallet_id = e.id  ORDER BY createtime desc LIMIT 0,15   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 70 行.
+NOTIC: [8] Undefined index: id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 71 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 71 行.
+NOTIC: [8] Undefined index: id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 72 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 72 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 85 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 86 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 87 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:39:47+08:00 ] 127.0.0.1 /index.php/conist/Personal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 20 行.
+SQL: SELECT * FROM `pa_user` LIMIT 0, 8   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 22 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( recommend = "" ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'recommend' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( recommend = "" ) LIMIT 1  
+NOTIC: [8] Undefined index: recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 51 行.
+NOTIC: [8] Undefined index: user_sex F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 91 行.
+NOTIC: [8] Undefined index: user_img F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 97 行.
+NOTIC: [8] Undefined index: user_attendschool F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 99 行.
+NOTIC: [8] Undefined index: user_school F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 101 行.
+NOTIC: [8] Undefined index: user_type F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 107 行.
+NOTIC: [8] Undefined index: user_academic F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 109 行.
+NOTIC: [8] Undefined index: user_artdirection F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 111 行.
+NOTIC: [8] Undefined index: user_achievement F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 113 行.
+NOTIC: [8] Undefined index: user_introduce F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 123 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 127 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 128 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 129 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 130 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 131 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 132 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 133 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 141 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 142 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:39:49+08:00 ] 127.0.0.1 /index.php/conist/Personal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.008001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 20 行.
+SQL: SELECT * FROM `pa_user` LIMIT 0, 8   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 22 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( recommend = "" ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'recommend' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( recommend = "" ) LIMIT 1  
+NOTIC: [8] Undefined index: recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 51 行.
+NOTIC: [8] Undefined index: user_sex F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 91 行.
+NOTIC: [8] Undefined index: user_img F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 97 行.
+NOTIC: [8] Undefined index: user_attendschool F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 99 行.
+NOTIC: [8] Undefined index: user_school F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 101 行.
+NOTIC: [8] Undefined index: user_type F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 107 行.
+NOTIC: [8] Undefined index: user_academic F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 109 行.
+NOTIC: [8] Undefined index: user_artdirection F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 111 行.
+NOTIC: [8] Undefined index: user_achievement F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 113 行.
+NOTIC: [8] Undefined index: user_introduce F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 123 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 127 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 128 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 129 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 130 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 131 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 132 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 133 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 141 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 142 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:39:50+08:00 ] 127.0.0.1 /index.php/conist/Personal/withdrawals
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 422 行.
+SQL: SHOW COLUMNS FROM pa_withdrawals w [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'w' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_withdrawals w
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 425 行.
+SQL: SELECT COUNT(*) AS tp_count FROM pa_withdrawals w LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 428 行.
+SQL: SELECT w.*,p.user_nickname,e.label,e.pay_code FROM pa_withdrawals w INNER JOIN pa_personal p on w.user_id=p.user_id INNER JOIN pa_e_wallet e on w.e_wallet_id = e.id  ORDER BY createtime desc LIMIT 0,15   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 70 行.
+NOTIC: [8] Undefined index: id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 71 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 71 行.
+NOTIC: [8] Undefined index: id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 72 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 72 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 85 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 86 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 87 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:39:51+08:00 ] 127.0.0.1 /index.php/conist/Personal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 20 行.
+SQL: SELECT * FROM `pa_user` LIMIT 0, 8   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 22 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( recommend = "" ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'recommend' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( recommend = "" ) LIMIT 1  
+NOTIC: [8] Undefined index: recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 51 行.
+NOTIC: [8] Undefined index: user_sex F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 91 行.
+NOTIC: [8] Undefined index: user_img F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 97 行.
+NOTIC: [8] Undefined index: user_attendschool F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 99 行.
+NOTIC: [8] Undefined index: user_school F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 101 行.
+NOTIC: [8] Undefined index: user_type F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 107 行.
+NOTIC: [8] Undefined index: user_academic F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 109 行.
+NOTIC: [8] Undefined index: user_artdirection F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 111 行.
+NOTIC: [8] Undefined index: user_achievement F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 113 行.
+NOTIC: [8] Undefined index: user_introduce F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 123 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 127 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 128 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 129 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 130 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 131 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 132 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 133 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 141 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 142 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:40:09+08:00 ] 127.0.0.1 /index.php/conist/Personal/userLevel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `pa_user_level` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `pa_user_level` ORDER BY id desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 51 行.
+NOTIC: [8] Undefined index: user_sex F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 95 行.
+NOTIC: [8] Undefined index: user_img F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 101 行.
+NOTIC: [8] Undefined index: user_attendschool F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 103 行.
+NOTIC: [8] Undefined index: user_school F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 105 行.
+NOTIC: [8] Undefined index: user_type F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 108 行.
+NOTIC: [8] Undefined index: user_academic F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 110 行.
+NOTIC: [8] Undefined index: user_artdirection F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 112 行.
+NOTIC: [8] Undefined index: user_achievement F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 114 行.
+NOTIC: [8] Undefined index: is_auth F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 116 行.
+NOTIC: [8] Undefined index: user_introduce F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 124 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 128 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 129 行.
+NOTIC: [8] Undefined index: user_sex F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 95 行.
+NOTIC: [8] Undefined index: user_img F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 101 行.
+NOTIC: [8] Undefined index: user_attendschool F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 103 行.
+NOTIC: [8] Undefined index: user_school F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 105 行.
+NOTIC: [8] Undefined index: user_type F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 108 行.
+NOTIC: [8] Undefined index: user_academic F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 110 行.
+NOTIC: [8] Undefined index: user_artdirection F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 112 行.
+NOTIC: [8] Undefined index: user_achievement F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 114 行.
+NOTIC: [8] Undefined index: is_auth F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 116 行.
+NOTIC: [8] Undefined index: user_introduce F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 124 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 128 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 129 行.
+NOTIC: [8] Undefined index: user_sex F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 95 行.
+NOTIC: [8] Undefined index: user_img F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 101 行.
+NOTIC: [8] Undefined index: user_attendschool F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 103 行.
+NOTIC: [8] Undefined index: user_school F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 105 行.
+NOTIC: [8] Undefined index: user_type F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 108 行.
+NOTIC: [8] Undefined index: user_academic F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 110 行.
+NOTIC: [8] Undefined index: user_artdirection F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 112 行.
+NOTIC: [8] Undefined index: user_achievement F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 114 行.
+NOTIC: [8] Undefined index: is_auth F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 116 行.
+NOTIC: [8] Undefined index: user_introduce F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 124 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 128 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 129 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 138 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 139 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 140 行.
+NOTIC: [8] Undefined variable: page F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\838f32b097c2051781998c2ebf4aad55.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:40:10+08:00 ] 127.0.0.1 /index.php/conist/Personal/top_up
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 289 行.
+SQL: SHOW COLUMNS FROM pa_top_up t [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_top_up t
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 292 行.
+SQL: SELECT COUNT(*) AS tp_count FROM pa_top_up t LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 295 行.
+SQL: SELECT t.*,p.user_id,p.user_nickname,e.pay_code FROM pa_top_up t INNER JOIN pa_personal p on t.user_id=p.user_id INNER JOIN pa_enterprise e on t.enterprise = e.id  ORDER BY t.createtime desc LIMIT 0,15   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 68 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 69 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 70 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 84 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 85 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 86 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8fbf4f3dc9718917bf97dc5dd7e50078.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:40:12+08:00 ] 127.0.0.1 /index.php/conist/Personal/tree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.007000s ]
+SQL: SELECT `user_id`,`user_nickname`,`recommend` FROM `pa_personal`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:43:37+08:00 ] 127.0.0.1 /index.php/conist/Access/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_access` [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `pa_admin`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:43:39+08:00 ] 127.0.0.1 /index.php/conist/SysData/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.052003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:43:41+08:00 ] 127.0.0.1 /index.php/conist/Siteinfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.013001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_nav` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `pa_nav`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Org\Util\Category.class.php 第 64 行.
+NOTIC: [8] Undefined property: Org\Util\Category::$formatList F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Org\Util\Category.class.php 第 119 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:43:43+08:00 ] 127.0.0.1 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.009001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_product` WHERE ( `status` IN ('0','1') ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.008001s ]
+SQL: SELECT `id`,`title`,`status`,`psize`,`published`,`cid`,`price`,`release`,`aid`,`is_recommend`,`lang`,`wap_display` FROM `pa_product` WHERE ( `status` IN ('0','1') ) ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.007000s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.008001s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:43:46+08:00 ] 127.0.0.1 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.009000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_product` WHERE ( `status` IN ('0','1') ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`title`,`status`,`psize`,`published`,`cid`,`price`,`release`,`aid`,`is_recommend`,`lang`,`wap_display` FROM `pa_product` WHERE ( `status` IN ('0','1') ) ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.007000s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:43:47+08:00 ] 127.0.0.1 /index.php/conist/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.009000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.013001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_news` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.010001s ]
+SQL: SELECT `id`,`title`,`status`,`published`,`cid`,`aid`,`is_recommend` FROM `pa_news` ORDER BY `published` DESC LIMIT 0 , 15   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.008000s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.008001s ]
+SQL: SELECT `cid`,`name` FROM `pa_category`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 4 F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 23 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:43:48+08:00 ] 127.0.0.1 /index.php/conist/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'n' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 51 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 52 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 64 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 71 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 79 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 82 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\2dfc02e2d7eeff6052237f403f7435fe.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:43:49+08:00 ] 127.0.0.1 /index.php/conist/News/agreement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_agreement` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `pa_agreement` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:43:54+08:00 ] 127.0.0.1 /index.php/conist/News/agreement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `pa_agreement` [ RunTime:0.007000s ]
+SQL: UPDATE `pa_agreement` SET `agreement`='1132143啥地方' WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:43:57+08:00 ] 127.0.0.1 /index.php/conist/News/agreement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.008000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `pa_agreement` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `pa_agreement` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:44:00+08:00 ] 127.0.0.1 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_product` WHERE ( `status` IN ('0','1') ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`title`,`status`,`psize`,`published`,`cid`,`price`,`release`,`aid`,`is_recommend`,`lang`,`wap_display` FROM `pa_product` WHERE ( `status` IN ('0','1') ) ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.006001s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:44:02+08:00 ] 127.0.0.1 /index.php/conist/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.010000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.010001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_news` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.008001s ]
+SQL: SELECT `id`,`title`,`status`,`published`,`cid`,`aid`,`is_recommend` FROM `pa_news` ORDER BY `published` DESC LIMIT 0 , 15   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.007000s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.008001s ]
+SQL: SELECT `cid`,`name` FROM `pa_category`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 4 F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 23 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:44:05+08:00 ] 127.0.0.1 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_product` WHERE ( `status` IN ('0','1') ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`title`,`status`,`psize`,`published`,`cid`,`price`,`release`,`aid`,`is_recommend`,`lang`,`wap_display` FROM `pa_product` WHERE ( `status` IN ('0','1') ) ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.006001s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.006000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:44:06+08:00 ] 127.0.0.1 /index.php/conist/Siteinfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.008000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_nav` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `pa_nav`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Org\Util\Category.class.php 第 64 行.
+NOTIC: [8] Undefined property: Org\Util\Category::$formatList F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Org\Util\Category.class.php 第 119 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:44:07+08:00 ] 127.0.0.1 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_product` WHERE ( `status` IN ('0','1') ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`title`,`status`,`psize`,`published`,`cid`,`price`,`release`,`aid`,`is_recommend`,`lang`,`wap_display` FROM `pa_product` WHERE ( `status` IN ('0','1') ) ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.007000s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:44:07+08:00 ] 127.0.0.1 /index.php/conist/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.012001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_news` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`title`,`status`,`published`,`cid`,`aid`,`is_recommend` FROM `pa_news` ORDER BY `published` DESC LIMIT 0 , 15   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.008001s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.008000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 4 F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 23 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+NOTIC: [8] Undefined index:  F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Model\NewsModel.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:44:10+08:00 ] 127.0.0.1 /index.php/conist/Siteinfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_nav` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `pa_nav`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Org\Util\Category.class.php 第 64 行.
+NOTIC: [8] Undefined property: Org\Util\Category::$formatList F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Org\Util\Category.class.php 第 119 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:44:11+08:00 ] 127.0.0.1 /index.php/conist/SysData/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-11-07T19:44:13+08:00 ] 127.0.0.1 /index.php/conist/Access/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_access` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `pa_admin`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:44:15+08:00 ] 127.0.0.1 /index.php/conist/Personal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 20 行.
+SQL: SELECT * FROM `pa_user` LIMIT 0, 8   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 22 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( recommend = "" ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'recommend' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( recommend = "" ) LIMIT 1  
+NOTIC: [8] Undefined index: recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 51 行.
+NOTIC: [8] Undefined index: user_sex F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 91 行.
+NOTIC: [8] Undefined index: user_img F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 97 行.
+NOTIC: [8] Undefined index: user_attendschool F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 99 行.
+NOTIC: [8] Undefined index: user_school F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 101 行.
+NOTIC: [8] Undefined index: user_type F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 107 行.
+NOTIC: [8] Undefined index: user_academic F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 109 行.
+NOTIC: [8] Undefined index: user_artdirection F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 111 行.
+NOTIC: [8] Undefined index: user_achievement F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 113 行.
+NOTIC: [8] Undefined index: user_introduce F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 123 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 127 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 128 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 129 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 130 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 131 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 132 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 133 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 141 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 142 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:44:17+08:00 ] 127.0.0.1 /index.php/conist/Personal/withdrawals
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 422 行.
+SQL: SHOW COLUMNS FROM pa_withdrawals w [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'w' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_withdrawals w
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 425 行.
+SQL: SELECT COUNT(*) AS tp_count FROM pa_withdrawals w LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 428 行.
+SQL: SELECT w.*,p.user_nickname,e.label,e.pay_code FROM pa_withdrawals w INNER JOIN pa_personal p on w.user_id=p.user_id INNER JOIN pa_e_wallet e on w.e_wallet_id = e.id  ORDER BY createtime desc LIMIT 0,15   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 70 行.
+NOTIC: [8] Undefined index: id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 71 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 71 行.
+NOTIC: [8] Undefined index: id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 72 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 72 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 85 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 86 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 87 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:52:41+08:00 ] 127.0.0.1 /index.php/conist/Personal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 20 行.
+SQL: SELECT * FROM `pa_user` LIMIT 0, 8   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 22 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( recommend = "" ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'recommend' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( recommend = "" ) LIMIT 1  
+NOTIC: [8] Undefined index: recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 51 行.
+NOTIC: [8] Undefined index: user_sex F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 91 行.
+NOTIC: [8] Undefined index: user_img F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 97 行.
+NOTIC: [8] Undefined index: user_attendschool F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 99 行.
+NOTIC: [8] Undefined index: user_school F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 101 行.
+NOTIC: [8] Undefined index: user_type F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 107 行.
+NOTIC: [8] Undefined index: user_academic F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 109 行.
+NOTIC: [8] Undefined index: user_artdirection F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 111 行.
+NOTIC: [8] Undefined index: user_achievement F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 113 行.
+NOTIC: [8] Undefined index: user_introduce F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 123 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 127 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 128 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 129 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 130 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 131 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 132 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 133 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 141 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 142 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:53:28+08:00 ] 127.0.0.1 /index.php/conist/Personal/withdrawals
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 422 行.
+SQL: SHOW COLUMNS FROM pa_withdrawals w [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'w' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_withdrawals w
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 425 行.
+SQL: SELECT COUNT(*) AS tp_count FROM pa_withdrawals w LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 428 行.
+SQL: SELECT w.*,p.user_nickname,e.label,e.pay_code FROM pa_withdrawals w INNER JOIN pa_personal p on w.user_id=p.user_id INNER JOIN pa_e_wallet e on w.e_wallet_id = e.id  ORDER BY createtime desc LIMIT 0,15   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: starttime F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 70 行.
+NOTIC: [8] Undefined index: id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 71 行.
+NOTIC: [8] Undefined index: display F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 71 行.
+NOTIC: [8] Undefined index: id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 72 行.
+NOTIC: [8] Undefined index: is_recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 72 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 85 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 86 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 87 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\81330720a0061daeddb834a581988201.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:54:14+08:00 ] 127.0.0.1 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_product` WHERE ( `status` IN ('0','1') ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`title`,`status`,`psize`,`published`,`cid`,`price`,`release`,`aid`,`is_recommend`,`lang`,`wap_display` FROM `pa_product` WHERE ( `status` IN ('0','1') ) ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.007000s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007001s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:54:15+08:00 ] 127.0.0.1 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.011001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_product` WHERE ( `status` IN ('0','1') ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.011000s ]
+SQL: SELECT `id`,`title`,`status`,`psize`,`published`,`cid`,`price`,`release`,`aid`,`is_recommend`,`lang`,`wap_display` FROM `pa_product` WHERE ( `status` IN ('0','1') ) ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.010001s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:54:16+08:00 ] 127.0.0.1 /index.php/conist/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.010000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 94 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 95 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 102 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 107 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 107 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 123 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 123 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 124 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 124 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 125 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 125 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 135 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 139 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 144 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 148 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 152 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 156 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 160 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 164 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 168 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 172 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 176 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 276 行.
+NOTIC: [8] Undefined variable: action_url F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 286 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 295 行.
+NOTIC: [8] Undefined variable: fuji F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 299 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 304 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 309 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 309 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 313 行.
+NOTIC: [8] Undefined variable: fuji F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:54:16+08:00 ] 127.0.0.1 /index.php/conist/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.012001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 94 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 95 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 102 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 107 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 107 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 123 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 123 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 124 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 124 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 125 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 125 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 135 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 139 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 144 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 148 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 152 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 156 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 160 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 164 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 168 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 172 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 176 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 276 行.
+NOTIC: [8] Undefined variable: action_url F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 286 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 295 行.
+NOTIC: [8] Undefined variable: fuji F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 299 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 304 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 309 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 309 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 313 行.
+NOTIC: [8] Undefined variable: fuji F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:54:22+08:00 ] 127.0.0.1 /index.php/conist/Product/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:54:42+08:00 ] 127.0.0.1 /index.php/conist/SysData/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.006000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW TABLE STATUS [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:54:43+08:00 ] 127.0.0.1 /index.php/conist/Access/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_access` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `pa_admin`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:54:44+08:00 ] 127.0.0.1 /index.php/conist/Personal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: hidden F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\CommonController.class.php 第 159 行.
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `pa_user` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 20 行.
+SQL: SELECT * FROM `pa_user` LIMIT 0, 8   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 22 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( recommend = "" ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'recommend' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `pa_user` WHERE ( recommend = "" ) LIMIT 1  
+NOTIC: [8] Undefined index: recommend F:\phpStudy\PHPTutorial\WWW\zxk\Application\Admin\Controller\PersonalController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keyword F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 51 行.
+NOTIC: [8] Undefined index: user_sex F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 91 行.
+NOTIC: [8] Undefined index: user_img F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 97 行.
+NOTIC: [8] Undefined index: user_attendschool F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 99 行.
+NOTIC: [8] Undefined index: user_school F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 101 行.
+NOTIC: [8] Undefined index: user_type F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 107 行.
+NOTIC: [8] Undefined index: user_academic F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 109 行.
+NOTIC: [8] Undefined index: user_artdirection F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 111 行.
+NOTIC: [8] Undefined index: user_achievement F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 113 行.
+NOTIC: [8] Undefined index: user_introduce F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 123 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 127 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 128 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 129 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 130 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 131 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 132 行.
+NOTIC: [8] Undefined index: user_id F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 133 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 141 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 142 行.
+NOTIC: [8] Undefined index: time F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\9822bab7efeb13b3e59e9905141301fe.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-07T19:54:45+08:00 ] 127.0.0.1 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.007000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.008001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_product` WHERE ( `status` IN ('0','1') ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`title`,`status`,`psize`,`published`,`cid`,`price`,`release`,`aid`,`is_recommend`,`lang`,`wap_display` FROM `pa_product` WHERE ( `status` IN ('0','1') ) ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.007001s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:54:46+08:00 ] 127.0.0.1 /index.php/conist/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.008000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 94 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 95 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 102 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 107 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 107 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 123 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 123 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 124 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 124 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 125 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 125 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 135 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 139 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 144 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 148 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 152 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 156 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 160 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 164 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 168 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 172 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 176 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 276 行.
+NOTIC: [8] Undefined variable: action_url F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 286 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 295 行.
+NOTIC: [8] Undefined variable: fuji F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 299 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 304 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 309 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 309 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 313 行.
+NOTIC: [8] Undefined variable: fuji F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-07T19:54:46+08:00 ] 127.0.0.1 /index.php/conist/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\phpStudy\PHPTutorial\WWW\zxk\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.012001s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 94 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 95 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 102 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 107 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 107 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 114 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 123 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 123 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 124 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 124 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 125 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 125 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 135 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 139 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 144 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 148 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 152 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 156 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 160 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 164 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 168 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 172 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 176 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 276 行.
+NOTIC: [8] Undefined variable: action_url F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 286 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 295 行.
+NOTIC: [8] Undefined variable: fuji F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 299 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 304 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 309 行.
+NOTIC: [8] Undefined variable: img_info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 309 行.
+NOTIC: [8] Undefined variable: info F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 313 行.
+NOTIC: [8] Undefined variable: fuji F:\phpStudy\PHPTutorial\WWW\zxk\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

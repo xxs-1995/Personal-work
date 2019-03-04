@@ -1,0 +1,856 @@
+[ 2018-10-13T21:32:38+08:00 ] 58.20.49.200 /index.php/Home/My/wallet/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "0753ae0702021de60308cc997d211ad0" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_order` WHERE ( uid = 3 and fk=1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\MyController.class.php 第 399 行.
+NOTIC: [8] Undefined variable: orderdetails E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\MyController.class.php 第 402 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\MyController.class.php 第 402 行.
+NOTIC: [8] Undefined variable: product E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\MyController.class.php 第 406 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\MyController.class.php 第 406 行.
+
+[ 2018-10-13T21:32:41+08:00 ] 58.20.49.200 /wakuang/font/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载控制器:Wakuang
+
+[ 2018-10-13T21:32:41+08:00 ] 58.20.49.200 /index.php/Home/Index/coin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-10-13T21:32:43+08:00 ] 58.20.49.200 /index.php/Home/Index/enterprise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_enterprise` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_enterprise` WHERE ( moren=1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T21:32:44+08:00 ] 58.20.49.200 /index.php/My/with_set
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "0753ae0702021de60308cc997d211ad0" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.000000s ]
+SQL: SELECT `service_fee`,`zec_ratio` FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_e_wallet` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_e_wallet` WHERE ( id = (null) ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T21:32:48+08:00 ] 58.20.49.200 /index.php/Home/My/MyMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword`,`real_name` FROM `pa_personal` WHERE ( access_token = "0753ae0702021de60308cc997d211ad0" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T21:32:55+08:00 ] 58.20.49.200 /index.php/Home/My/address_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "0753ae0702021de60308cc997d211ad0" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_address` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_address` WHERE ( uid = 3 ) ORDER BY moren desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_city` WHERE ( ID = 9370 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_city` WHERE ( ID = 9371 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_city` WHERE ( ID = 9382 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T21:33:05+08:00 ] 58.20.49.200 /index.php/Home/My/address_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "0753ae0702021de60308cc997d211ad0" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_address` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_address` WHERE ( uid = 3 ) ORDER BY moren desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_city` WHERE ( ID = 9370 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_city` WHERE ( ID = 9371 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_city` WHERE ( ID = 9382 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T21:33:21+08:00 ] 58.20.49.200 /index.php/Home/My/MyMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword`,`real_name` FROM `pa_personal` WHERE ( access_token = "0753ae0702021de60308cc997d211ad0" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T21:33:36+08:00 ] 58.20.49.200 /index.php/Home/My/address_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "0753ae0702021de60308cc997d211ad0" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_address` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_address` WHERE ( uid = 3 ) ORDER BY moren desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_city` WHERE ( ID = 9370 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_city` WHERE ( ID = 9371 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_city` WHERE ( ID = 9382 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T21:37:55+08:00 ] 117.136.40.221 /Index/block
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` WHERE ( user_type != 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.015625s ]
+SQL: SELECT `id`,`ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "blockworld" ) ORDER BY sort desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "banner" ) ORDER BY sort desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.015625s ]
+SQL: SELECT `id`,`title` FROM `pa_news`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T21:41:23+08:00 ] 58.20.49.200 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.000000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.015625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_product` WHERE ( `status` IN ('0','1') ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`status`,`psize`,`published`,`cid`,`price`,`release`,`aid`,`is_recommend`,`lang`,`wap_display` FROM `pa_product` WHERE ( `status` IN ('0','1') ) ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.015625s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.000000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-10-13T21:43:37+08:00 ] 58.20.49.200 /index.php/conist/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_model` [ RunTime:0.000000s ]
+SQL: SELECT `tbl_name`,`menu_name` FROM `pa_model` WHERE ( is_inner=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.015625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_product` WHERE ( `status` IN ('0','1') ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`status`,`psize`,`published`,`cid`,`price`,`release`,`aid`,`is_recommend`,`lang`,`wap_display` FROM `pa_product` WHERE ( `status` IN ('0','1') ) ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.015625s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.000000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_category` WHERE ( `type` = 'p' )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-10-13T21:49:12+08:00 ] 117.136.40.221 /wakuang/font/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Wakuang
+
+[ 2018-10-13T21:49:12+08:00 ] 117.136.40.221 /index.php/Home/Index/coin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-10-13T21:49:14+08:00 ] 117.136.40.221 /index.php/My/with_set
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.031250s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.000000s ]
+SQL: SELECT `service_fee`,`zec_ratio` FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_e_wallet` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_e_wallet` WHERE ( user_id = 1 and moren=1 ) LIMIT 1   [ RunTime:0.062500s ]
+
+[ 2018-10-13T22:03:07+08:00 ] 117.136.40.221 /Index/block
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` WHERE ( user_type != 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.015625s ]
+SQL: SELECT `id`,`ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "blockworld" ) ORDER BY sort desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "banner" ) ORDER BY sort desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.015624s ]
+SQL: SELECT `id`,`title` FROM `pa_news`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_liveset` LIMIT 1   [ RunTime:0.015625s ]
+
+[ 2018-10-13T22:03:09+08:00 ] 117.136.40.221 /index.php/Home/My/MyMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:03:10+08:00 ] 117.136.40.221 /index.php/My/idea
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: status E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\MyController.class.php 第 1174 行.
+SQL: SHOW COLUMNS FROM `pa_idea` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_idea` WHERE ( `uid` = 1 )  [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:03:13+08:00 ] 117.136.40.221 /index.php/Home/My/MyMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.015624s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:07:21+08:00 ] 117.136.40.221 /index.php/Home/My/system_sale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_img`,`user_nickname`,`identity`,`front_img`,`contrary_img`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:07:26+08:00 ] 117.136.40.221 /index.php/Home/My/MyMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:07:29+08:00 ] 117.136.40.221 /Index/block
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` WHERE ( user_type != 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.015625s ]
+SQL: SELECT `id`,`ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "blockworld" ) ORDER BY sort desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "banner" ) ORDER BY sort desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `pa_news`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:07:49+08:00 ] 117.136.40.221 /index.php/Home/My/MyMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:08:04+08:00 ] 117.136.40.221 /index.php/Home/My/MyMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:08:06+08:00 ] 117.136.40.221 /index.php/Home/My/system_sale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_img`,`user_nickname`,`identity`,`front_img`,`contrary_img`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:08:09+08:00 ] 117.136.40.221 /index.php/Home/My/MyMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:08:11+08:00 ] 117.136.40.221 /index.php/Home/My/system_sale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_img`,`user_nickname`,`identity`,`front_img`,`contrary_img`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:08:13+08:00 ] 117.136.40.221 /index.php/Home/Index/Mypay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_password`,`payword` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_account` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_account` WHERE ( user_id = "1" and account_number_name=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_account` WHERE ( user_id = "1" and account_number_name=2 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_bankinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_bankinfo` WHERE ( user_id = "1" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_e_wallet` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_e_wallet` WHERE ( user_id = "1" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:08:16+08:00 ] 117.136.40.221 /index.php/Home/My/e_wallet_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_e_wallet` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_e_wallet` WHERE ( user_id = 1 ) ORDER BY moren desc  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\MyController.class.php 第 1021 行.
+
+[ 2018-10-13T22:08:20+08:00 ] 117.136.40.221 /index.php/Home/Index/Mypay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_password`,`payword` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_account` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_account` WHERE ( user_id = "1" and account_number_name=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_account` WHERE ( user_id = "1" and account_number_name=2 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_bankinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_bankinfo` WHERE ( user_id = "1" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_e_wallet` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_e_wallet` WHERE ( user_id = "1" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:08:28+08:00 ] 117.136.40.221 /index.php/Home/My/MyMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:08:49+08:00 ] 117.136.40.221 /index.php/Home/My/MyMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:09:17+08:00 ] 117.136.40.221 /Index/block
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` WHERE ( user_type != 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.015624s ]
+SQL: SELECT `id`,`ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "blockworld" ) ORDER BY sort desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "banner" ) ORDER BY sort desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `pa_news`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:32:55+08:00 ] 117.136.40.221 /index.php/Home/My/MyMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:32:57+08:00 ] 117.136.40.221 /Index/block
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` WHERE ( user_type != 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.015624s ]
+SQL: SELECT `id`,`ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "blockworld" ) ORDER BY sort desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "banner" ) ORDER BY sort desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `pa_news`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:32:57+08:00 ] 117.136.40.221 /wakuang/font/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Wakuang
+
+[ 2018-10-13T22:32:57+08:00 ] 117.136.40.221 /index.php/Home/Index/coin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:32:59+08:00 ] 117.136.40.221 /index.php/Home/Index/enterprise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_enterprise` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `pa_enterprise` WHERE ( moren=1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:33:00+08:00 ] 117.136.40.221 /index.php/My/with_set
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.015625s ]
+SQL: SELECT `service_fee`,`zec_ratio` FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_e_wallet` [ RunTime:0.031250s ]
+SQL: SELECT * FROM `pa_e_wallet` WHERE ( id = (null) ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:33:14+08:00 ] 117.136.40.221 /index.php/My/verifypayword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_password`,`payword` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:34:09+08:00 ] 117.136.40.221 /wakuang/font/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Wakuang
+
+[ 2018-10-13T22:34:10+08:00 ] 117.136.40.221 /index.php/Home/Index/coin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:34:11+08:00 ] 117.136.40.221 /index.php/Home/Index/enterprise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_enterprise` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_enterprise` WHERE ( moren=1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:34:12+08:00 ] 117.136.40.221 /index.php/My/with_set
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.015625s ]
+SQL: SELECT `service_fee`,`zec_ratio` FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_e_wallet` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_e_wallet` WHERE ( id = (null) ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:34:17+08:00 ] 117.136.40.221 /wakuang/font/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Wakuang
+
+[ 2018-10-13T22:34:18+08:00 ] 117.136.40.221 /index.php/Home/Index/coin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:34:19+08:00 ] 117.136.40.221 /index.php/Home/Index/enterprise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_enterprise` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_enterprise` WHERE ( moren=1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:34:20+08:00 ] 117.136.40.221 /index.php/My/with_set
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.000000s ]
+SQL: SELECT `service_fee`,`zec_ratio` FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_e_wallet` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_e_wallet` WHERE ( id = (null) ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:34:34+08:00 ] 117.136.40.221 /index.php/My/verifypayword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_password`,`payword` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:48:24+08:00 ] 117.136.40.221 /wakuang/font/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Wakuang
+
+[ 2018-10-13T22:48:24+08:00 ] 117.136.40.221 /index.php/Home/Index/coin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:48:26+08:00 ] 117.136.40.221 /index.php/My/with_set
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015624s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.000000s ]
+SQL: SELECT `service_fee`,`zec_ratio` FROM `pa_liveset` LIMIT 1   [ RunTime:0.015624s ]
+SQL: SHOW COLUMNS FROM `pa_e_wallet` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_e_wallet` WHERE ( user_id = 1 and moren=1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:50:01+08:00 ] 117.136.40.221 /Index/block
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` WHERE ( user_type != 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "blockworld" ) ORDER BY sort desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "banner" ) ORDER BY sort desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.015624s ]
+SQL: SELECT `id`,`title` FROM `pa_news`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:50:03+08:00 ] 117.136.40.221 /index.php/Home/My/MyMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:50:08+08:00 ] 117.136.40.221 /Index/block
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` WHERE ( user_type != 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.015625s ]
+SQL: SELECT `id`,`ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "blockworld" ) ORDER BY sort desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "banner" ) ORDER BY sort desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `pa_news`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:50:10+08:00 ] 117.136.40.221 /index.php/Home/My/MyMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:50:11+08:00 ] 117.136.40.221 /index.php/Home/My/system_sale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_img`,`user_nickname`,`identity`,`front_img`,`contrary_img`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-10-13T22:51:01+08:00 ] 117.136.40.221 /index.php/Home/My/MyMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword`,`real_name` FROM `pa_personal` WHERE ( access_token = "86d81fb9ef0576b02ed57840e48d6a26" ) LIMIT 1   [ RunTime:0.000000s ]
+

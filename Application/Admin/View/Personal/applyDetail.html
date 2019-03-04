@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>后台管理-{$site.SITE_INFO.name}</title>
+        <php>
+            $addCss="";
+            $addJs="";
+            $currentNav ='会员管理 > 主播申请列表';
+        </php>
+        <include file="Common:intoHead" />
+</head>
+<body>
+<div class="wrap"> <include file="Common:head" />
+    <div class="mainBody"> <include file="Common:left" />
+        <div id="Right">
+            <div class="contentArea">
+                <div class="Item hr">
+                    <div class="current">申请详情</div>
+                </div>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1" style="float:left">
+                        <tr>
+                            <th>会员id：</th>
+                            <td>{$apply.teacher_userid}</td>
+                        </tr>
+                        
+                        <tr>
+                            <th>真实姓名：</th>
+                            <td>{$apply.true_name}</td>
+                        </tr>
+                        
+                        <tr>
+                            <th>开发属性：</th>
+                            <td>{$apply.attribute}</td>
+                        </tr>
+                        <tr>
+                            <th>应用方向：</th>
+                            <td>{$apply.direction}</td>
+                        </tr>
+                        <tr>
+                            <th>联系方式：</th>
+                            <td>{$apply.phone}</td>
+                        </tr>
+                        <tr>
+                            <th>微信：</th>
+                            <td>{$apply.wechat}</td>
+                        </tr>
+                        <tr>
+                            <th>qq：</th>
+                            <td>{$apply.qq}</td>
+                        </tr>
+                        <tr>
+                            <th>邮箱：</th>
+                            <td>{$apply.email}</td>
+                        </tr>
+                        
+                        <tr>
+                            <th>团队规模和组成：</th>
+                            <td>{$apply.scale}</td>
+                        </tr>
+                        <tr>
+                            <th>项目目前进展：</th>
+                            <td>{$apply.progress}</td>
+                        </tr>
+
+                        <tr>
+                            <th>项目简介或自我介绍：</th>
+                            <td>{$apply.introduce}</td>
+                        </tr>
+
+                        <tr>
+                            <th>商业计划</th>
+                            
+                            <td><if condition="$apply['plan']" ><a href="{$apply.plan}">商业计划</a></if></td>
+                        </tr>
+                       
+
+                    </table>
+                    <input type="hidden" name="id" value="{$info.id}"/>
+                    <div class="commonBtnArea" >
+                        <button class="btn ">返回</button>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<include file="Common:foot" />
+<script type="text/javascript">
+    $(function(){
+        $(".btn").click(function(){
+            // commonAjaxSubmit();
+            window.history.back(-1);
+        });
+    });
+</script>
+</body>
+</html>

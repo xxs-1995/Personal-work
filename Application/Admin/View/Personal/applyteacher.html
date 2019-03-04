@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>后台管理-{$site.SITE_INFO.name}</title>
+        <php>
+            $addCss="";
+            $addJs="";
+            $currentNav ='会员管理 > 入驻申请列表';
+        </php>
+        <include file="Common:intoHead" />
+        <style>
+        .active{
+          
+            transform: scale(15);
+        }
+        </style>
+        
+    </head>
+    <body>
+        <div class="wrap">
+            <include file="Common:head" />
+            <div class="mainBody">
+                <include file="Common:left" />
+                <div id="Right">
+                    <div class="Item hr">
+                        <div class="current">申请列表</div>
+                    </div>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab">
+                        <thead>
+                            <tr>
+                                <td>用户id</td>
+                                <td>用户名</td>
+                                <td>应用方向</td>
+                                <td>联系方式</td>
+                                <td>微信</td>
+                                <td>qq</td>
+                                <td>邮箱</td>
+                                <td>申请时间</td>
+                                <td>申请类型</td>
+                                <td>审核状态</td>
+
+                                <td width="150">操作</td>
+                            </tr>
+                        </thead>
+                        <volist name="list" id="vo">
+                            <tr align="center" id="{$vo.teacher_id}" class="imgs">
+                        <td align="center">{$vo.teacher_userid}</td>  
+                            
+                                <td align="center">{$vo.true_name}</td>
+                                <td>{$vo.direction}</td>
+                                <td>{$vo.phone}</td>
+                                <td>{$vo.wechat}</td>
+                                <td>{$vo.qq}</td>
+                                <td>{$vo.email}</td>
+                                <td>{$vo.createtime|date="Y-m-d H:i:s",###}</td>
+                                <td>{$vo.type}</td>
+                                <td>
+                                <if condition = "$vo.teacher_examine == 0">待审核<elseif condition="$vo.teacher_examine == 1"/>已批准<else/>已拒绝</if>
+                                </td>
+                                <!-- <td><img src="{$vo.liveLogo}" alt="" class="img1" width="70" height="50"/></td> -->
+                                <!-- <td><img src="{$vo.poster}" alt="" class="img1" width="70" height="50"/></td> -->
+                                <!-- <td>{$vo.liveName}</td> -->
+                                <!-- <td>{$vo.wechat}</td> -->
+                                <!-- <td>{$vo.phone}</td> -->
+                                
+                                <td>
+                                    <a href="{:U('Personal/applyDetail/',array('id'=>$vo['teacher_id'],'user_id'=>$vo['teacher_userid']))}">详情</a>
+                                    <if condition="$vo['teacher_examine'] == 0">
+                                        [ <a link="{:U('Personal/applyteacher_ok/',array('id'=>$vo['teacher_id'],'user_id'=>$vo['teacher_userid']))}" href="javascript:void(0)"  class="ok">批准 </a> ][ <a link="{:U('Personal/applyteacher_no/',array('id'=>$vo['teacher_id'],'user_id'=>$vo['teacher_userid']))}" href="javascript:void(0)" class="no">拒绝 </a> ]
+                                    <else/>   
+                                        <if condition="$vo['teacher_examine'] == 1">已通过<elseif condition="$vo['teacher_examine'] == 2" />已拒绝 </if>
+                                    </if> 
+                                </td>
+                               
+                            </tr>
+                        </volist>
+                        <tr><td colspan="12" align="right"><div class="msdn ">{$page}</div></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <include file="Common:foot" />
+        <script type="text/javascript">
+            $(function(){
+                $(".ok").click(function(){
+                    var delLink=$(this).attr("link");
+                    $this = $(this);
+                    popup.confirm('确定批准?','温馨提示',function(action){
+                        
+                        if(action == 'ok'){
+                            delByLink(delLink,$this);
+                            window.location.reload();
+                            // top.window.location.href=delLink;
+                        }
+                    });
+                    return false;
+                });
+                $(".no").click(function(){
+                    var delLink=$(this).attr("link");
+                    $this = $(this);
+                    popup.confirm('确定拒绝?','温馨提示',function(action){
+                        if(action == 'ok'){
+                            delByLink(delLink,$this);
+                            window.location.reload();
+                            //top.window.location.href=delLink;
+                        }
+                    });
+                    return false;
+                });
+            });
+            function changeAttr(id,v){
+                $.get('{:U("News/changeAttr")}?id='+id,function(data){
+                    if(data.status==1){
+                        $(v).html(data.info);
+                    }
+                });
+            }
+            function changeStatus(id,v){
+                $.get('{:U("News/changeStatus")}?id='+id,function(data){
+                    if(data.status==1){
+                        $(v).html(data.info);
+                    }
+                });
+                  
+            }
+
+
+             // var imgs=$(".img1");
+             // console.log(imgs);
+             // for(var i=0;i<imgs.length;i++){
+             //    imgs[i].click(function(e){
+             //        alert(e.target);
+             //        e.preventDefault();
+             //        this.toggleClass("active");
+             //    })
+
+         
+        </script>
+        <script>
+        $(function(){
+              $('.img1').click(function(){
+                $(this).toggleClass('active');
+            })
+        })
+        </script>
+    </body>
+</html>

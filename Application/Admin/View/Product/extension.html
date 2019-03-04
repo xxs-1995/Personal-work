@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>参数设置-{$site.SITE_INFO.name}</title>
+        <php>
+            $addCss="";
+            $addJs="";
+            $currentNav ='参数设置 > 推广参数';
+        </php>
+        <include file="Common:intoHead" />
+        <style>
+            div.spot {
+                float: left;
+                margin: 0 20px 0 0;
+                width: 220px;
+                min-height: 160px;
+                border: 2px dashed #ddd;
+            }
+            .droparea {
+                position: relative;
+                text-align: center;
+            }
+            .droparea .instructions {
+                opacity: 0.8;
+                background-color: #cccccc;
+                height: 25px;
+                z-index: 10;
+                zoom: 1;
+                background-position: initial initial;
+                background-repeat: initial initial;
+                cursor: pointer;
+            }
+            .droparea div, .droparea input {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .droparea input {
+                cursor: pointer;
+                opacity: 0;
+            }
+            .droparea div, .droparea input {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+            #uparea1,#uparea2,#uparea3{
+                height: 170px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <include file="Common:head" />
+            <div class="mainBody">
+                <include file="Common:left" />
+                <div id="Right">
+                    <div class="Item hr">
+                        <div class="current">参数设置</div>
+                    </div>
+                    <form method="post">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                        <input type="hidden" name="id" value="{$rate.id}" />
+                            <tr>
+                                <th width="100">推荐新人送算力：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="recommend" value="{$rate.recommend}"/></td>
+                                <th width="100">二级推荐送算力：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="recommend2" value="{$rate.recommend2}"/></td>
+                                <th width="100">注册送算力：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="register" value="{$rate.register}"/></td>
+                                
+                            </tr>
+                            <tr>
+                                <th width="100">推广算力转化{$Think.config.coin}比例：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="convert" value="{$rate.convert}"/>%</td>
+                                <th width="100">区块算力转化{$Think.config.coin}比例：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="convert2" value="{$rate.convert2}"/>%</td>
+                                <th width="100">达到奖励的产品id：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="pid" value="{$rate.pid}"/></td>
+                            </tr>
+                            <tr>
+                                <th width="100">销售矿机一级奖励：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="reward1" value="{$rate.reward1}"/>%</td>
+                                <th width="100">销售矿机二级奖励：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="reward2" value="{$rate.reward2}"/>%</td>
+                                <th width="100">默认验证码：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="default_yzm" value="{$rate.default_yzm}"/></td>
+                            </tr>                           
+                            <!-- <tr>
+                                <th width="100">算力补贴占算例池的比重：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="subsidy_rete" value="{$rate.subsidy_rete}"/></td>
+                                <th width="100">算力补贴销售数量：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="subsidy_num" value="{$rate.subsidy_num}"/></td>
+                                <th width="100">算力补贴销售累计：</th>
+                                <td><input id="name" type="text" class="input" size="10" name="subsidy_price" value="{$rate.subsidy_price}"/></td>
+                            </tr> -->
+
+                            <!-- <tr>
+                                <th width="100">达到奖励的产品id：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="pid" value="{$rate.pid}"/></td>
+                                <th width="100">BOWT等同人民币的价值：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="cny" value="{$rate.cny}"/></td>
+                                <th width="100">算力池占总金额的比例：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="pool" value="{$rate.pool}"/>%</td>
+                              
+                            </tr> -->
+
+                           <!--  <tr>
+                                <th width="100">县级代理人数</th>
+                                <td><input id="name" type="text" class="input" size="10" name="countynum" value="{$rate.countynum}"/></td>
+                                <th width="100">县级代理金额</th>
+                                <td><input id="name" type="text" class="input" size="10" name="countyprice" value="{$rate.countyprice}"/></td>
+                                <th width="100">县级代理奖励的比率</th>
+                                <td><input id="name" type="text" class="input" size="10" name="countyrate" value="{$rate.countyrate }"/></td>
+                            </tr>
+                            <tr>
+                                <th width="100">市级代理人数</th>
+                                <td><input id="name" type="text" class="input" size="10" name="citynum" value="{$rate.citynum}"/></td>
+                                <th width="100">市级代理金额</th>
+                                <td><input id="name" type="text" class="input" size="10" name="cityprice" value="{$rate.cityprice}"/></td>
+                                <th width="100">市级代理奖励的比率</th>
+                                <td><input id="name" type="text" class="input" size="10" name="cityrate" value="{$rate.cityrate}"/></td>
+                            </tr>
+                            <tr>
+                                <th width="100">省级代理人数</th>
+                                <td><input id="name" type="text" class="input" size="10" name="provincenum" value="{$rate.provincenum}"/></td>
+                                <th width="100">省级代理金额</th>
+                                <td><input id="name" type="text" class="input" size="10" name="provinceorice" value="{$rate.provinceorice}"/></td>
+                                <th width="100">省级代理奖励的比率</th>
+                                <td><input id="name" type="text" class="input" size="10" name="provincerate" value="{$rate.provincerate}"/></td>
+                            </tr> -->
+                             <tr>
+                                <th width="100">(提现)手续费比例：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="service_fee" value="{$rate.service_fee}"/>%</td>
+                                <th width="100">(挖矿)管理费比例：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="manage_fee" value="{$rate.manage_fee}"/>%</td>
+                                <th width="100">ZEC换算CNY比例：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="zec_ratio" value="{$rate.zec_ratio}"/></td>
+                            </tr>
+                            <tr>
+                                <th width="100">ZEC换算USD比例：</th>
+                                <td><input id="name" type="text" class="input" size="5" name="zec_usd_rate" value="{$rate.zec_usd_rate}"/></td>
+                            </tr>
+                        </table>
+                    </form>
+                    <div class="commonBtnArea" >
+                        <button class="btn submit">提交</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <include file="Common:foot" />
+        <js href="--PUBLIC--/kindeditor/kindeditor.js,--PUBLIC--/kindeditor/lang/zh_CN.js"/>
+        <script type="text/javascript">
+            function del_image(num){
+                $('#image'+num).css('background-image','');
+                $('#image_'+num).val('');
+            }
+            $(function(){
+
+                var  content ;
+                KindEditor.ready(function(K) {
+                    content = K.create('#content',{
+                        allowFileManager : true,
+                        uploadJson:'--PUBLIC--/kindeditor/php/upload_json.php?dirname=Institution'
+                    });
+                });
+
+                KindEditor.ready(function(K) {
+                    K.create();
+                    var editor = K.editor({
+                        allowFileManager : true,
+                        uploadJson:'--PUBLIC--/kindeditor/php/upload_json.php?dirname=Institution'
+                        //sdl:false
+                    });
+                    K('#uparea1').click(function() {
+                        editor.loadPlugin('image', function() {
+                            editor.plugin.imageDialog({
+                                imageUrl : K('#image_1').val(),
+                                clickFn : function(url, title, width, height, border, align) {
+                                    $('#image1').css('background-image','url('+url+')').css('background-size','220px 160px');
+                                    K('#image_1').val(url);
+                                   // K('#getImgUrl').val(url);
+                                    editor.hideDialog();
+                                }
+                            });
+                        });
+                    });
+
+                });
+              
+                $(".submit").click(function(){
+                    if($('#name').val()==''){
+                        popup.error('姓名不能为空！');
+                        return false;
+                    }
+                    $('form').submit();
+                    return false;
+                });
+            });
+        </script>
+    </body>
+</html>

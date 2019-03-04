@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>留言管理-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+        $addJs="";
+        $currentNav ='留言管理 > 留言信息';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+<div class="wrap"> <include file="Common:head" />
+    <div class="mainBody"> <include file="Common:left" />
+        <div id="Right">
+            <div class="contentArea">
+                <div class="Item hr">
+                    <div class="current">留言信息</div>
+                </div>
+                <form action="" method="post">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                        <tr>
+                            <th width="120">留言人：</th>
+                            <td><input name="" type="text" class="input" size="30" value="{$info.personal.user_nickname}" disabled/></td>
+                        </tr>
+                        <tr>
+                            <th width="120">联系电话：</th>
+                            <td><input name="" type="text" class="input" size="30" value="{$info.personal.user_tel}" disabled/></td>
+                        </tr>
+                        <tr>
+                            <th width="120">查看状态：</th>
+                            <td>
+                                <if condition="$info.status eq '0'">
+                            未查看
+                            <elseif condition="$info.status eq '1'" />
+                            已查看
+                            </if>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th width="120">留言时间：</th>
+                            <td><input name="" type="text" class="input" size="30" value="{$info.createtime|date="Y-m-d H:i:s",###}" disabled/></td>
+                        </tr>
+                        <tr>
+                            <th width="120">留言标题：</th>
+                            <td><input name="" type="text" class="input" size="30" value="{$info.title}" disabled/></td>
+                        </tr>
+                        <tr>
+                            <th width="120">留言内容：</th>
+                            <td><textarea disabled>{$info.text}</textarea>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="hidden" name="id" value="{$info.id}"/>
+                </form>                
+                <div class="commonBtnArea" >
+                    <button class="btn" onClick="javascript :history.back(-1);">返回</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<include file="Common:foot" />
+<js href="__PUBLIC__/kindeditor/kindeditor.js,__PUBLIC__/kindeditor/lang/zh_CN.js"/>
+<script type="text/javascript">
+    $(function(){
+        $(".submit").click(function(){
+            commonAjaxSubmit();
+            return false;
+        });
+    });
+</script>
+</body>
+</html>

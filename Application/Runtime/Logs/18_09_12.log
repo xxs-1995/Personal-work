@@ -1,0 +1,1101 @@
+[ 2018-09-12T09:03:31+08:00 ] 111.193.192.211 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+ERR: 无法加载控制器:Favicon
+
+[ 2018-09-12T09:25:34+08:00 ] 47.92.104.107 /index.php/Home/Index/wawa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-12T09:26:21+08:00 ] 47.92.104.107 /index.php/Home/Index/wawa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-12T09:38:55+08:00 ] 111.193.192.211 /Index/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM pa_news n [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_news n
+SQL: SELECT * FROM pa_news n INNER JOIN pa_category c on c.cid = n.cid  WHERE ( c.name = "头条新闻" )  [ RunTime:0.062498s ]
+
+[ 2018-09-12T09:38:55+08:00 ] 111.193.192.211 /Index/block
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.015625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` WHERE ( user_type != 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.062498s ]
+SQL: SELECT `id`,`ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "blockworld" ) ORDER BY sort desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "banner" ) ORDER BY sort desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM pa_news n [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_news n
+SQL: SELECT `title`,`id` FROM pa_news n INNER JOIN pa_category c on c.cid = n.cid  WHERE ( c.name = "城市公告" )  [ RunTime:0.000000s ]
+SQL: SELECT `title`,`id` FROM pa_news n INNER JOIN pa_category c on c.cid = n.cid  WHERE ( c.name = "BlockWorld挖矿简介" )  [ RunTime:0.000000s ]
+
+[ 2018-09-12T09:38:55+08:00 ] 111.193.192.211 /index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_img`,`mineral`,`user_tel`,`suanli`,`user_nickname`,`user_number`,`user_jine`,`dig` FROM `pa_personal` WHERE ( access_token = "b923026a9dd0685ee0c24cbdd3788af8" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_mining` [ RunTime:0.015624s ]
+SQL: INSERT INTO `pa_mining` (`user_id`,`createtime`,`receive`,`title`,`bid`,`number`) VALUES (89,1536716335,0,'BOW',3,0.00841) [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `pa_computing` [ RunTime:0.062498s ]
+SQL: SELECT * FROM `pa_computing` WHERE ( user_id = "89" and type = "sign" and createtime > "1536681600" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`suanli`,`user_nickname` FROM `pa_personal` ORDER BY suanli desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_mining` WHERE ( receive_time > "1536681600" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_mining` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `number`,`title`,`id` FROM `pa_mining` WHERE ( user_id = "89" and receive = 0 ) ORDER BY createtime desc  [ RunTime:0.000000s ]
+SQL: SELECT number insur,`receive_time`,`title` FROM `pa_mining` WHERE ( user_id = "89" and receive = 1 ) ORDER BY receive_time desc LIMIT 4   [ RunTime:0.000000s ]
+
+[ 2018-09-12T09:38:59+08:00 ] 111.193.192.211 /index.php/Home/Index/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.000000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( type = "p" ) ORDER BY sort  [ RunTime:0.000000s ]
+
+[ 2018-09-12T09:39:00+08:00 ] 111.193.192.211 /index.php/Home/Index/buylistn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015624s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.000000s ]
+SQL: SELECT `ad_img` FROM `pa_ad` WHERE ( position = "shop" ) ORDER BY sort desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.015624s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( type = "p" ) ORDER BY sort  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM pa_product p [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'p' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_product p
+SQL: SELECT p.id,p.title,p.price,p.image_id FROM pa_product p WHERE ( cid = "15" )  [ RunTime:0.031249s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "165" ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SELECT p.id,p.title,p.price,p.image_id FROM pa_product p WHERE ( cid = "13" )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "176" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT p.id,p.title,p.price,p.image_id FROM pa_product p WHERE ( cid = "14" )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "166" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "167" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "168" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "170" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "171" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "175" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "174" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT p.id,p.title,p.price,p.image_id FROM pa_product p  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "176" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "166" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "165" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "167" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "168" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "170" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "171" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "175" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "174" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: access_token E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 343 行.
+
+[ 2018-09-12T09:39:01+08:00 ] 111.193.192.211 /index.php/Home/Index/buylist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.000000s ]
+SQL: SELECT `ad_img` FROM `pa_ad` WHERE ( position = "shop" ) ORDER BY sort desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM pa_product p [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'p' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_product p
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 308 行.
+SQL: SELECT p.id,p.title,p.price,p.image_id FROM pa_product p  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "176" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "166" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "165" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "167" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "168" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "170" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "171" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "175" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "174" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-09-12T09:39:02+08:00 ] 111.193.192.211 /index.php/Home/Index/buylist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.000000s ]
+SQL: SELECT `ad_img` FROM `pa_ad` WHERE ( position = "shop" ) ORDER BY sort desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM pa_product p [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'p' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_product p
+SQL: SELECT p.id,p.title,p.price,p.image_id FROM pa_product p WHERE ( `cid` = '15' )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "165" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-09-12T09:39:06+08:00 ] 111.193.192.211 /index.php/Home/Index/shopdetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`price`,`image_id`,`content` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "165" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-09-12T09:39:06+08:00 ] 111.193.192.211 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015624s ]
+ERR: 无法加载控制器:Favicon
+
+[ 2018-09-12T09:39:28+08:00 ] 111.193.192.211 /index.php/Home/Order/tcar_im_pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015624s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "b923026a9dd0685ee0c24cbdd3788af8" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_address` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `pa_address` WHERE ( uid = 89 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_order` WHERE ( payno = "4837B56BBD9FCA" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `pa_order` (`payno`,`price`,`uid`,`shmsg_id`,`createtime`,`order_type`,`fk`,`zt`,`sum`,`identification`,`pay_type`) VALUES ('4837B56BBD9FCA',100,89,2,1536716368,'shop',0,0,1,'201809121536716368895261',1) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_orderdetails` [ RunTime:0.000000s ]
+SQL: INSERT INTO `pa_orderdetails` (`payno`,`uid`,`pid`,`num`,`psize`,`title`,`shoujia`,`cptype`,`recommend`,`recommend2`) VALUES ('4837B56BBD9FCA',89,10,1,'5.00','算力巢','100',0,null,null) [ RunTime:0.000000s ]
+
+[ 2018-09-12T09:39:29+08:00 ] 111.193.192.211 /Order/Orderdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "b923026a9dd0685ee0c24cbdd3788af8" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_order` [ RunTime:0.015625s ]
+SQL: SELECT `id`,`payno`,`createtime`,price allprice,`zt`,`pay_type`,`fk_time` FROM `pa_order` WHERE ( `payno` = '4837B56BBD9FCA' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sid E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 594 行.
+NOTIC: [8] Undefined index: shmsg_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 611 行.
+SQL: SHOW COLUMNS FROM `pa_orderdetails` [ RunTime:0.000000s ]
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "4837B56BBD9FCA" )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.015624s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "165" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 625 行.
+
+[ 2018-09-12T09:39:47+08:00 ] 111.193.192.211 /index.php/Home/My/myMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword` FROM `pa_personal` WHERE ( access_token = "b923026a9dd0685ee0c24cbdd3788af8" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-09-12T09:39:48+08:00 ] 111.193.192.211 /index.php/Home/My/myMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015624s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword` FROM `pa_personal` WHERE ( access_token = "b923026a9dd0685ee0c24cbdd3788af8" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-09-12T09:39:54+08:00 ] 111.193.192.211 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Favicon
+
+[ 2018-09-12T09:39:56+08:00 ] 111.193.192.211 /index.php/Home/My/myMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword` FROM `pa_personal` WHERE ( access_token = "b923026a9dd0685ee0c24cbdd3788af8" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-09-12T09:39:57+08:00 ] 111.193.192.211 /index.php/Home/Order/Order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id` FROM `pa_personal` WHERE ( access_token = "b923026a9dd0685ee0c24cbdd3788af8" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM pa_order o [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'o' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_order o
+SQL: SELECT o.id,o.payno,o.identification,o.createtime,o.price allprice,o.zt FROM pa_order o join pa_personal p ON p.user_id = o.uid  WHERE ( o.uid = '89' ) ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_orderdetails` [ RunTime:0.015624s ]
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "4837B56BBD9FCA" )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "65D8AF8A98FD70" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "7D2923A22CC4D6" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "7223F7F2E01FEF" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "5" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('166') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "2399FC7917F57E" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "5" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('166') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "BCA793BE517254" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "715988A79277B1" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "2D981D3A3738B2" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "2DCCF069FEABCA" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "FFCDCBB25C9574" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "DF211CE6213FF9" )  [ RunTime:0.015624s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "FC1906B8685FF0" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "AADD78654AB6F5" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "5593EFD5839D08" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "538F261005E7E8" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "9CA4BF43DDE89E" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "858053F756D96D" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "9A95D81D00CBA8" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "5" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('166') )  [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "04FD4955D2B14F" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "E60EEF49F00DA8" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "751CCDFE3D2FC3" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "BC4B22EBC82DE5" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "016328DA6C383F" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "5589C43A062993" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "FE975A0AD6133B" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "5B329EC5D754AC" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "CD2FD732B8DBF4" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "4700DD4BD205B3" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "7273ECD4EA5AD4" )  [ RunTime:0.015624s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "E59274EEF96567" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "5" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('166') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "469952A1A8C61B" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "5" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('166') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "093588EB30CDA0" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "5" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('166') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "79409E69783442" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "B2D4665ED4001E" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "5F1CC9E3292BB5" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "5682BF72700D42" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "005F9C89E58194" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "4C59466296EDDC" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "D120723041DF3C" )  [ RunTime:0.015625s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "50558E78E74456" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "5D3A04BAD4FEF6" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "E672CE2E1FF486" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "5" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('166') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "3597E7A3E9EE0F" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "A0E1B4F3FC6AED" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "5" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('166') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "F7BC020AE6AEEB" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "F91162C2CE3842" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "440D1387CA950A" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+
+[ 2018-09-12T09:39:58+08:00 ] 111.193.192.211 /index.php/Home/Order/Order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id` FROM `pa_personal` WHERE ( access_token = "b923026a9dd0685ee0c24cbdd3788af8" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM pa_order o [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'o' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_order o
+SQL: SELECT o.id,o.payno,o.identification,o.createtime,o.price allprice,o.zt FROM pa_order o join pa_personal p ON p.user_id = o.uid  WHERE ( o.zt IN ('0') ) AND ( o.uid = '89' ) ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_orderdetails` [ RunTime:0.015624s ]
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "4837B56BBD9FCA" )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "65D8AF8A98FD70" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "2DCCF069FEABCA" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "FC1906B8685FF0" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "5593EFD5839D08" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "9CA4BF43DDE89E" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "858053F756D96D" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "9A95D81D00CBA8" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "5" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('166') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "04FD4955D2B14F" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "E60EEF49F00DA8" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "751CCDFE3D2FC3" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.015624s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "BC4B22EBC82DE5" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "016328DA6C383F" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "5589C43A062993" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "FE975A0AD6133B" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "5B329EC5D754AC" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "CD2FD732B8DBF4" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "4700DD4BD205B3" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "7273ECD4EA5AD4" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "469952A1A8C61B" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "5" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('166') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "093588EB30CDA0" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "5" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('166') )  [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "79409E69783442" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "B2D4665ED4001E" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('167') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "5F1CC9E3292BB5" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "5682BF72700D42" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('176') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "005F9C89E58194" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "4C59466296EDDC" )  [ RunTime:0.015624s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "D120723041DF3C" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "50558E78E74456" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "5D3A04BAD4FEF6" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "E672CE2E1FF486" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "5" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('166') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "A0E1B4F3FC6AED" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "5" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('166') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "F7BC020AE6AEEB" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "F91162C2CE3842" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "440D1387CA950A" )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( `id` IN ('165') )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 563 行.
+
+[ 2018-09-12T09:40:01+08:00 ] 111.193.192.211 /Order/Orderdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "b923026a9dd0685ee0c24cbdd3788af8" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_order` [ RunTime:0.015625s ]
+SQL: SELECT `id`,`payno`,`createtime`,price allprice,`zt`,`pay_type`,`fk_time` FROM `pa_order` WHERE ( `payno` = '4837B56BBD9FCA' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sid E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 594 行.
+NOTIC: [8] Undefined index: shmsg_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 611 行.
+SQL: SHOW COLUMNS FROM `pa_orderdetails` [ RunTime:0.000000s ]
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "4837B56BBD9FCA" )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "10" ) LIMIT 1   [ RunTime:0.015624s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "165" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 625 行.
+
+[ 2018-09-12T09:40:08+08:00 ] 111.193.192.211 /Order/Orderdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "b923026a9dd0685ee0c24cbdd3788af8" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_order` [ RunTime:0.015625s ]
+SQL: SELECT `id`,`payno`,`createtime`,price allprice,`zt`,`pay_type`,`fk_time` FROM `pa_order` WHERE ( `payno` = '7D2923A22CC4D6' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sid E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 594 行.
+SQL: SHOW COLUMNS FROM `pa_voucher` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_voucher` WHERE ( apply_number = '7D2923A22CC4D6' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: shmsg_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 611 行.
+SQL: SHOW COLUMNS FROM `pa_orderdetails` [ RunTime:0.015624s ]
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "7D2923A22CC4D6" )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "12" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "167" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 625 行.
+
+[ 2018-09-12T09:40:30+08:00 ] 111.193.192.211 /index.php/Home/My/myMessage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_number`,`user_img`,`user_nickname`,`suanli`,`flowsuanli`,`mineral`,`identity`,`user_tel`,`payword` FROM `pa_personal` WHERE ( access_token = "b923026a9dd0685ee0c24cbdd3788af8" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:15:16+08:00 ] 111.193.192.211 //index.php/Home/Order/Order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id` FROM `pa_personal` WHERE ( access_token = "e003d732454076c3fa759a6d7dbee884" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:15:18+08:00 ] 111.193.192.211 //index.php/Home/Order/Order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id` FROM `pa_personal` WHERE ( access_token = "e003d732454076c3fa759a6d7dbee884" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:15:20+08:00 ] 111.193.192.211 //index.php/Home/Order/Order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id` FROM `pa_personal` WHERE ( access_token = "e003d732454076c3fa759a6d7dbee884" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:15:21+08:00 ] 111.193.192.211 //index.php/Home/Order/Order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id` FROM `pa_personal` WHERE ( access_token = "e003d732454076c3fa759a6d7dbee884" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:15:22+08:00 ] 111.193.192.211 //index.php/Home/Order/Order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id` FROM `pa_personal` WHERE ( access_token = "e003d732454076c3fa759a6d7dbee884" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:15:52+08:00 ] 111.193.192.211 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( user_tel = "1" and user_password = "c4ca4238a0b923820dcc509a6f75849b" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `pa_personal` SET `access_token`='c0b40477513503403a42a6ab07f46e46',`user_logintime`=1536722152 WHERE ( user_id = "1" ) [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:15:54+08:00 ] 111.193.192.211 /Index/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM pa_news n [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_news n
+SQL: SELECT * FROM pa_news n INNER JOIN pa_category c on c.cid = n.cid  WHERE ( c.name = "头条新闻" )  [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:15:55+08:00 ] 111.193.192.211 /index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_img`,`mineral`,`user_tel`,`suanli`,`user_nickname`,`user_number`,`user_jine`,`dig` FROM `pa_personal` WHERE ( access_token = "c0b40477513503403a42a6ab07f46e46" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_mining` [ RunTime:0.015624s ]
+SQL: INSERT INTO `pa_mining` (`user_id`,`createtime`,`receive`,`title`,`bid`,`number`) VALUES (1,1536722155,0,'BOW',3,0.00974) [ RunTime:0.000000s ]
+SQL: INSERT INTO `pa_mining` (`user_id`,`createtime`,`receive`,`title`,`bid`,`number`) VALUES (1,1536722155,0,'BOW',3,0.00813) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_computing` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_computing` WHERE ( user_id = "1" and type = "sign" and createtime > "1536681600" ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`suanli`,`user_nickname` FROM `pa_personal` ORDER BY suanli desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_mining` WHERE ( receive_time > "1536681600" ) LIMIT 1   [ RunTime:0.015624s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_mining` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `number`,`title`,`id` FROM `pa_mining` WHERE ( user_id = "1" and receive = 0 ) ORDER BY createtime desc  [ RunTime:0.000000s ]
+SQL: SELECT number insur,`receive_time`,`title` FROM `pa_mining` WHERE ( user_id = "1" and receive = 1 ) ORDER BY receive_time desc LIMIT 4   [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:15:58+08:00 ] 111.193.192.211 /index.php/Home/Index/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.000000s ]
+SQL: SELECT `cid`,`name` FROM `pa_category` WHERE ( type = "p" ) ORDER BY sort  [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:15:59+08:00 ] 111.193.192.211 /Index/block
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_personal` WHERE ( user_type != 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.015624s ]
+SQL: SELECT `id`,`ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "blockworld" ) ORDER BY sort desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `ad_link`,`ad_img` FROM `pa_ad` WHERE ( position = "banner" ) ORDER BY sort desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM pa_news n [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_news n
+SQL: SELECT `title`,`id` FROM pa_news n INNER JOIN pa_category c on c.cid = n.cid  WHERE ( c.name = "城市公告" )  [ RunTime:0.000000s ]
+SQL: SELECT `title`,`id` FROM pa_news n INNER JOIN pa_category c on c.cid = n.cid  WHERE ( c.name = "BlockWorld挖矿简介" )  [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:16:02+08:00 ] 111.193.192.211 /index.php/Home/My/Sel_Bankcard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.015625s ]
+SQL: SELECT `user_id`,`user_password`,`payword` FROM `pa_personal` WHERE ( access_token = "c0b40477513503403a42a6ab07f46e46" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_bankinfo` [ RunTime:0.031249s ]
+SQL: SELECT * FROM `pa_bankinfo` WHERE ( user_id = "1" )  [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:16:03+08:00 ] 111.193.192.211 /index.php/Home/Index/buylist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_ad` [ RunTime:0.000000s ]
+SQL: SELECT `ad_img` FROM `pa_ad` WHERE ( position = "shop" ) ORDER BY sort desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM pa_product p [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'p' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM pa_product p
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 308 行.
+SQL: SELECT p.id,p.title,p.price,p.image_id FROM pa_product p  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "176" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "166" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "165" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "167" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "168" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "170" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "171" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "175" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "174" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:16:06+08:00 ] 111.193.192.211 /index.php/Home/Index/shopdetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`price`,`image_id`,`content` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "176" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:16:08+08:00 ] 111.193.192.211 /index.php/Home/My/Sel_Bankcard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_password`,`payword` FROM `pa_personal` WHERE ( access_token = "c0b40477513503403a42a6ab07f46e46" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_bankinfo` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `pa_bankinfo` WHERE ( user_id = "1" )  [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:16:13+08:00 ] 111.193.192.211 /index.php/Home/Order/tcar_im_pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "c0b40477513503403a42a6ab07f46e46" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_address` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `pa_address` WHERE ( uid = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_order` WHERE ( payno = "6B371491D1A12A" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `pa_order` (`payno`,`price`,`uid`,`shmsg_id`,`createtime`,`order_type`,`fk`,`zt`,`sum`,`identification`,`pay_type`) VALUES ('6B371491D1A12A',10000,1,1,1536722173,'shop',0,0,1,'20180912153672217319511',1) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_orderdetails` [ RunTime:0.000000s ]
+SQL: INSERT INTO `pa_orderdetails` (`payno`,`uid`,`pid`,`num`,`psize`,`title`,`shoujia`,`cptype`,`recommend`,`recommend2`) VALUES ('6B371491D1A12A',1,11,1,'0.00','蜂巢IPFS矿机','10000',0,1,1) [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:16:14+08:00 ] 111.193.192.211 /index.php/Home/Order/querenzhifu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT `user_id`,`user_jine`,`flowsuanli`,`mineral`,`recommend`,`recommend2`,`payword` FROM `pa_personal` WHERE ( access_token = "c0b40477513503403a42a6ab07f46e46" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_order` [ RunTime:0.015624s ]
+SQL: SELECT `price`,`pay_type`,`cid` FROM `pa_order` WHERE ( payno = "6B371491D1A12A" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: zt E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 372 行.
+SQL: UPDATE `pa_personal` SET `mineral`=mineral-3333.3333333333 WHERE ( user_id = "1" ) [ RunTime:0.000000s ]
+SQL: UPDATE `pa_order` SET `zt`=1,`fk`=1,`fk_time`=1536722174 WHERE ( payno = "6B371491D1A12A" ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_orderdetail` [ RunTime:0.015625s ]
+ERR: 1146:Table 'intelligencemine.pa_orderdetail' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pa_orderdetail`
+SQL: SELECT SUM(num) AS tp_sum FROM `pa_orderdetail` WHERE ( `recommend` = '1' ) AND ( `pid` IN ('4','5') ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'intelligencemine.pa_orderdetail' doesn't exist
+ [ SQL语句 ] : SELECT SUM(num) AS tp_sum FROM `pa_orderdetail` WHERE ( `recommend` = '1' ) AND ( `pid` IN ('4','5') ) LIMIT 1  
+SQL: SELECT * FROM `pa_personal` WHERE ( user_id = 1 ) LIMIT 1   [ RunTime:0.046873s ]
+SQL: SHOW COLUMNS FROM `pa_mining` [ RunTime:0.000000s ]
+SQL: INSERT INTO `pa_mining` (`user_id`,`createtime`,`receive`,`title`,`bid`,`number`) VALUES (1,1536722174,0,'BOW',3,0) [ RunTime:0.000000s ]
+
+[ 2018-09-12T11:16:16+08:00 ] 111.193.192.211 /index.php/Home/Order/Orderdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "c0b40477513503403a42a6ab07f46e46" ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `pa_order` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`payno`,`createtime`,price allprice,`zt`,`pay_type`,`fk_time` FROM `pa_order` WHERE ( `payno` = '6B371491D1A12A' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sid E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 594 行.
+NOTIC: [8] Undefined index: shmsg_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 611 行.
+SQL: SHOW COLUMNS FROM `pa_orderdetails` [ RunTime:0.015624s ]
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "6B371491D1A12A" )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "176" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 625 行.
+
+[ 2018-09-12T11:16:27+08:00 ] 111.193.192.211 /index.php/Home/Order/Orderdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "c0b40477513503403a42a6ab07f46e46" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_order` [ RunTime:0.015624s ]
+SQL: SELECT `id`,`payno`,`createtime`,price allprice,`zt`,`pay_type`,`fk_time` FROM `pa_order` WHERE ( `payno` = '6B371491D1A12A' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sid E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 594 行.
+NOTIC: [8] Undefined index: shmsg_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 611 行.
+SQL: SHOW COLUMNS FROM `pa_orderdetails` [ RunTime:0.000000s ]
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "6B371491D1A12A" )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.015625s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "176" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 625 行.
+
+[ 2018-09-12T11:16:29+08:00 ] 111.193.192.211 /Order/Orderdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015624s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "c0b40477513503403a42a6ab07f46e46" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_order` [ RunTime:0.015625s ]
+SQL: SELECT `id`,`payno`,`createtime`,price allprice,`zt`,`pay_type`,`fk_time` FROM `pa_order` WHERE ( `payno` = '6B371491D1A12A' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sid E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 594 行.
+NOTIC: [8] Undefined index: shmsg_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 611 行.
+SQL: SHOW COLUMNS FROM `pa_orderdetails` [ RunTime:0.000000s ]
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "6B371491D1A12A" )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "176" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 625 行.
+
+[ 2018-09-12T11:16:36+08:00 ] 111.193.192.211 /index.php/Home/Order/Orderdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "c0b40477513503403a42a6ab07f46e46" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_order` [ RunTime:0.015625s ]
+SQL: SELECT `id`,`payno`,`createtime`,price allprice,`zt`,`pay_type`,`fk_time` FROM `pa_order` WHERE ( `payno` = '6B371491D1A12A' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sid E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 594 行.
+NOTIC: [8] Undefined index: shmsg_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 611 行.
+SQL: SHOW COLUMNS FROM `pa_orderdetails` [ RunTime:0.000000s ]
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "6B371491D1A12A" )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.015624s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "176" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 625 行.
+
+[ 2018-09-12T11:16:41+08:00 ] 111.193.192.211 /Order/Orderdetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal` WHERE ( access_token = "c0b40477513503403a42a6ab07f46e46" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_order` [ RunTime:0.015625s ]
+SQL: SELECT `id`,`payno`,`createtime`,price allprice,`zt`,`pay_type`,`fk_time` FROM `pa_order` WHERE ( `payno` = '6B371491D1A12A' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sid E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 594 行.
+NOTIC: [8] Undefined index: shmsg_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 611 行.
+SQL: SHOW COLUMNS FROM `pa_orderdetails` [ RunTime:0.000000s ]
+SQL: SELECT `pid`,`shoujia`,`num` FROM `pa_orderdetails` WHERE ( payno = "6B371491D1A12A" )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_product` [ RunTime:0.015624s ]
+SQL: SELECT `id`,`title`,`image_id` FROM `pa_product` WHERE ( id = "11" ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_images` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_images` WHERE ( id = "176" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: count E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\OrderController.class.php 第 625 行.
+

@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>添加、编辑新闻-后台管理-{$site.SITE_INFO.name}</title>
+        <php>
+            $addCss="";
+            $addJs="";
+            $currentNav ='文章管理 > 添加编辑文章';
+        </php>
+                <style>
+            div.spot {
+                float: left;
+                margin: 0 20px 0 0;
+                width: 220px;
+                min-height: 160px;
+                border: 2px dashed #ddd;
+            }
+            .droparea {
+                position: relative;
+                text-align: center;
+            }
+            .droparea .instructions {
+                opacity: 0.8;
+                background-color: #cccccc;
+                height: 25px;
+                z-index: 10;
+                zoom: 1;
+                background-position: initial initial;
+                background-repeat: initial initial;
+                cursor: pointer;
+            }
+            .droparea div, .droparea input {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .droparea input {
+                cursor: pointer;
+                opacity: 0;
+            }
+            .droparea div, .droparea input {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+            #uparea1,#uparea2,#uparea3{
+                height: 170px;
+                cursor: pointer;
+            }
+        </style>
+        <include file="Common:intoHead" />
+    </head>
+    <body>
+        <div class="wrap">
+            <include file="Common:head" />
+            <div class="mainBody">
+                <include file="Common:left" />
+                <div id="Right">
+                    <div class="Item hr">
+                        <div class="current">添加编辑文章</div>
+                    </div>
+                    <form method="post">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                            
+                            <tr>
+                                <th width="100">文章标题：</th>
+                                <td><input id="title" type="text" class="input" size="60" name="forum_title" value="{$info.forum_title}"/> 
+                            </tr>
+
+                            <tr>
+                                <th width="100">文章发布状态：</th>
+                                <td><label><input type="radio" name="forum_status" value="0" <if condition="$info.forum_status eq 0"> checked="checked"</if> /> 文章审核状态</label> &nbsp; <label><input type="radio" name="forum_status" value="1" <if condition="$info.forum_status eq 1"> checked="checked"</if> /> 文章已发布状态</label> </td>
+                            </tr>
+                            <tr>
+                                <th>文章所属分类：</th>
+                                <td>
+                                    <select name="forum_category">
+                                                <option value=''>--请选择分类--</option>
+                                        <volist name="tag" id="vo">
+                                            <if condition="$vo[tag_name] eq $info[forum_category]">
+                                                <option value="{$vo.tag_name}" selected="selected">{$vo.tag_name}</option>
+                                                <else/>
+                                                <option value="{$vo.tag_name}">{$vo.tag_name}</option>
+                                            </if>
+                                        </volist>
+                                        <option value="比赛公告">比赛公告</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <th>文章封面：</th>
+                                <td><input type="text" id="url1" class="input" size="40" name="forum_poster" value="{$info.forum_poster}"/>
+                                        <input type="button" class="btn " id="image" value="选择图片" /></td>
+                            </tr>
+                            <input type="hidden" name="forum_id" value="{$info.forum_id}" />
+                         <!--    <tr>
+                                <th>文章关键词：</th>
+                                <td><input type="text" class="input" size="60" name="info[keywords]" value="{$info.keywords}"/> 多关键词间用半角逗号（,）分开，可用于做文章关联阅读条件</td>
+                            </tr>
+                            <tr>
+                                <th>文章描述：</th>
+                                <td><textarea class="input" style="height: 60px; width: 600px;" name="info[description]">{$info.description}</textarea> 用于SEO的description</td>
+                            </tr> -->
+                            <tr>
+                                <th>文章导语：</th>
+                                <td><textarea class="input" style="height: 60px; width: 600px;" name="forum_lead"></textarea> </td>
+                            </tr>
+                            <tr>
+                                <th>文章内容：</th>
+                                <td><textarea  class="input" id="content" style="height: 300px; width: 100%;" name="forum_content">{$info.forum_content}</textarea></td>
+                            </tr>
+                            </tr>
+                                <th>产品图片：</th>
+                                <td>
+                                    <div class="droparea spot" id="image1" style="background-image: url('{$img_info[0]['savepath']}');background-size: 220px 160px;" ><div class="instructions" onclick="del_image('1')">删除</div><div id="uparea1"></div><input type="hidden" name="image_1[]" id="image_1" value="{$img_info[0]['savepath']}" /></div>
+                                    <div class="droparea spot" id="image2" style="background-image: url('{$img_info[1]['savepath']}');background-size: 220px 160px;" ><div class="instructions" onclick="del_image('2')">删除</div><div id="uparea2"></div><input type="hidden" name="image_1[]" id="image_2" value="{$img_info[1]['savepath']}" /></div>
+                                    <div class="droparea spot" id="image3" style="background-image: url('{$img_info[2]['savepath']}');background-size: 220px 160px;" ><div class="instructions" onclick="del_image('3')">删除</div><div id="uparea3"></div><input type="hidden" name="image_1[]" id="image_3" value="{$img_info[2]['savepath']}" /></div>
+                                </td>
+                            </tr>
+                    </form> </table>
+                    <div class="commonBtnArea" >
+                        <button class="btn submit">提交</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <include file="Common:foot" />
+        <js href="--PUBLIC--/kindeditor/kindeditor.js,--PUBLIC--/kindeditor/lang/zh_CN.js"/>
+        <script type="text/javascript">
+            $(function(){var  content ;
+                KindEditor.ready(function(K) {
+                    content = K.create('#content',{
+                        allowFileManager : true,
+                        uploadJson:'--PUBLIC--/kindeditor/php/upload_json.php?dirname=article'
+                    });
+                });
+                $("#checkNewsTitle").click(function(){
+                    $.getJSON("__URL__/checkNewsTitle", { title:$("#title").val(),id:"{$info.id}"}, function(json){
+                        $("#checkNewsTitle").css("color",json.status==1?"#0f0":"#f00").html(json.info);
+                    });
+                });
+                $(".submit").click(function(){
+                    $('form').submit();
+                });
+            });
+        </script>
+        <script>
+            KindEditor.ready(function(K) {
+                var editor = K.editor({
+                    allowFileManager : true,
+                    filterMode : false,
+                    uploadJson:'--PUBLIC--/kindeditor/php/upload_json.php?dirname=article',
+                     
+
+                });
+                K('#image').click(function() {
+                    editor.loadPlugin('image', function() {
+                        editor.plugin.imageDialog({
+                            imageUrl : K('#url1').val(),
+                            clickFn : function(url, title, width, height, border, align) {
+                                K('#url1').val(url);
+                                editor.hideDialog();
+                            }
+                        });
+                    });
+                });
+
+                K('#uparea1').click(function() {
+                        editor.loadPlugin('image', function() {
+                            editor.plugin.imageDialog({
+                                imageUrl : K('#image_1').val(),
+                                clickFn : function(url, title, width, height, border, align) {
+                                    $('#image1').css('background-image','url('+url+')').css('background-size','220px 160px');
+                                    K('#image_1').val(url);
+                                   // K('#getImgUrl').val(url);
+                                    editor.hideDialog();
+                                }
+                            });
+                        });
+                    });
+
+                    K('#uparea2').click(function() {
+                        editor.loadPlugin('image', function() {
+                            editor.plugin.imageDialog({
+                                imageUrl : K('#image_2').val(),
+                                clickFn : function(url, title, width, height, border, align) {
+                                    $('#image2').css('background-image','url('+url+')').css('background-size','220px 160px');
+                                    K('#image_2').val(url);
+                                    // K('#getImgUrl').val(url);
+                                    editor.hideDialog();
+                                }
+                            });
+                        });
+                    });
+
+                    K('#uparea3').click(function() {
+                        editor.loadPlugin('image', function() {
+                            editor.plugin.imageDialog({
+                                imageUrl : K('#image_3').val(),
+                                clickFn : function(url, title, width, height, border, align) {
+                                    $('#image3').css('background-image','url('+url+')').css('background-size','220px 160px');
+                                    K('#image_3').val(url);
+                                    // K('#getImgUrl').val(url);
+                                    editor.hideDialog();
+                                }
+                            });
+                        });
+                    });
+            });
+        </script>
+    </body>
+</html>

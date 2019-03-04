@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>支付管理-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+        $addJs="";
+        $currentNav ='支付管理 > 支付列表';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+<div class="wrap">
+    <include file="Common:head" />
+    <div class="mainBody">
+        <include file="Common:left" />
+        <div id="Right">
+            <div class="Item hr">
+                <div class="current" style="max-width: 100px; float: left;">支付管理</div>
+                <div style="width: 100px;float: right;"><button type="button" class="btn" onclick="window.location.href='{:U('Siteinfo/pay_add')}'">添加</button></div>
+            </div>
+            <table width="50%" border="0" cellspacing="0" cellpadding="0" class="tab">
+                <thead>
+                <tr>
+                    <td width="6%">类型</td>
+                    <td width="6%">AppId</td>
+                    <td width="6%">操作</td>
+                </tr>
+                </thead>
+                <volist name="list" id="vo">
+                    <tr id="{$vo.id}" style="txet-align:center;">
+                        <td>{$vo.pay_type}</td>
+                        <td>{$vo.pay_AppId}</td>
+                        <td>[ <a href="__URL__/pay_edit?id={$vo.pay_id}">编辑 </a> ]</td>
+                    </tr>
+                </volist>
+                <tr>
+                    <td colspan="6" align="right">
+                    {$page}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<include file="Common:foot" />
+<script type="text/javascript">
+    $(function(){
+        $(".del").click(function(){
+            var delLink=$(this).attr("link"),$this = $(this);
+            popup.confirm('你真的打算删除【<b>'+$(this).attr("name")+'</b>】吗?','温馨提示',function(action){
+                if(action == 'ok'){
+                    delByLink(delLink,$this);
+                }
+            });
+            return false;
+        });
+    });
+</script>
+</body>
+</html>

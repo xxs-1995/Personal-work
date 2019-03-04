@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>订单管理-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+        $addJs="";
+        $currentNav ='订单管理 > 订单信息';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+<div class="wrap"> <include file="Common:head" />
+    <div class="mainBody"> <include file="Common:left" />
+        <div id="Right">
+            <div class="contentArea">
+                <div class="Item hr">
+                    <div class="current">基本信息</div>
+                </div>
+                <form action="" method="post">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                        <tr>
+                            <th width="120">订单号：</th>
+                            <td><input name="" type="text" class="input" size="30" value="{$info.payno}" disabled/></td>
+                        </tr>
+                        <tr>
+                            <th width="120">订单状态：</th>
+                            <td><label><input type="radio" class="input" name="info[zt]" value="0" disabled <if condition="$info['zt'] eq 0">checked</if>>待付款</label>
+                                <!-- <label><input type="radio" class="input" name="zt" value="1" disabled <if condition="$info['zt'] eq 1">checked</if>>待发货</label> -->
+                                <!-- <label><input type="radio" class="input" name="zt" value="3" disabled <if condition="$info['zt'] eq 3">checked</if>>待评价</label> -->
+                                <!-- <label><input type="radio" class="input" name="info[zt]" value="4"  <if condition="$info['zt'] eq 4">checked</if>>待收货</label> -->
+                                <label><input type="radio" class="input" name="info[zt]" value="1" disabled <if condition="$info['zt'] eq 1">checked</if>>已付款</label>
+                                <label><input type="radio" class="input" name="info[zt]" value="2"  <if condition="$info['zt'] eq 2">checked</if>>已发货</label>
+                                <label><input type="radio" class="input" name="info[zt]" value="3"  <if condition="$info['zt'] eq 3">checked</if>>已完成</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th width="120">下单时间：</th>
+                            <td><input name="" type="text" class="input" size="30" value="{$info.createtime}" disabled/></td>
+                        </tr>
+                        <tr>
+                            <th width="120">总价：</th>
+                            <td><input name="" type="text" class="input" size="30" value="{$info.price}" disabled/></td>
+                        </tr>
+                        <tr>
+                            <th width="120">支付方式：</th>
+                            <td><label>{$info.pay_type}</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th width="120">付款时间：</th>
+                            <td><input name="" type="text" class="input" size="30" value="{$info.fk_time}" disabled/></td>
+                        </tr>
+                    </table>
+                    <input type="hidden" name="id" value="{$info.id}"/>
+                </form>
+                <div class="Item hr">
+                    <div class="current">订单信息</div>
+                </div>
+                <table width="50%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                    <volist name="info[orderdea]" id="vo">  
+                        <tr>
+                            <th width="120">商品{$vo.m}：</th>
+                            <td>{$vo.title}</td>
+                            <th width="120">售价：</th>
+                            <td>{$vo.shoujia}</td>
+                            <th width="120">数量：</th>
+                            <td>{$vo.num}</td>
+                            <th width="120">图片：</th>
+                            <td><img src="{$vo.img_url}" alt="" width="80" height="50"/></td>
+                        </tr>
+                    </volist>
+                </table>
+                <div class="Item hr">
+                    <div class="current">收货人信息</div>
+                </div>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                        <tr>
+                            <th width="120">电话：</th>
+                            <td><input name="" type="text" class="input" size="30" value="{$info.sh_phone}" disabled/></td>
+                        </tr>
+                        <tr>
+                            <th width="120">名字：</th>
+                            <td><input name="" type="text" class="input" size="30" value="{$info.sh_name}" disabled/></td>
+                        </tr>
+                        <tr>
+                            <th width="120">地址：</th>
+                            <td><input name="" type="text" class="input" size="30" value="{$info.address}" disabled/></td>
+                        </tr>
+                    </table>
+                <div class="commonBtnArea" >
+                    <button class="btn submit">提交</button>
+                    <button class="btn" onClick="javascript :history.back(-1);">返回</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<include file="Common:foot" />
+<js href="__PUBLIC__/kindeditor/kindeditor.js,__PUBLIC__/kindeditor/lang/zh_CN.js"/>
+<script type="text/javascript">
+    $(function(){
+        $(".submit").click(function(){
+            commonAjaxSubmit();
+            return false;
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>后台管理-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+        $addJs="";
+        $currentNav ='支付管理 > 编辑支付';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+<div class="wrap"> <include file="Common:head" />
+    <div class="mainBody"> <include file="Common:left" />
+        <div id="Right">
+            <div class="contentArea">
+                <div class="Item hr">
+                    <div class="current">编辑支付</div>
+                </div>
+                <form action="{:U('Siteinfo/pay_edit')}" method="post">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                        <tr>
+                            <th>支付类型：</th>
+                            <td><select name="pay_type" style="width: 80px;">
+                                <option value="{$info.pay_type}">{$info.pay_type}</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <th><span style='color:red;'>*</span>AppId:</th>
+                            <td><input name="pay_AppId" type="text" class="input" size="40" value="{$info.pay_AppId}" /></td>
+                        </tr>
+                        <tr id="hidetr">
+                            <th width="120"><span style='color:red;'>*</span>AppKey:</th>
+                            <td><input name="pay_AppKey" type="text" class="input" size="40" value="{$info.pay_AppKey}" /></td>
+                        </tr>
+                        <tr id="hidetr">
+                            <th width="120"><span style='color:red;'>*</span>AppRSA:</th>
+                            <td><textarea id="" class="" style="height: 150px; width: 40%;" name="pay_AppRSA">{$info.pay_AppRSA}</textarea></td>
+                        </tr>
+                        <tr id="hidetr">
+                            <th width="120"><span style='color:red;'>*</span>AppRSA2:</th>
+                            <td><textarea id="" class="" style="height: 150px; width: 40%;" name="pay_AppRSA2">{$info.pay_AppRSA2}</textarea></td>
+                        </tr>
+                        <tr id="hidetr">
+                            <th width="120"><span style='color:red;'>*</span>回调地址:</th>
+                            <td><textarea id="" class="" style="height: 150px; width: 40%;" name="pay_url">{$info.pay_url}</textarea></td>
+                        </tr>
+                    </table>
+                    <input name="pay_id" type="hidden" class="input" size="40" value="{$info.pay_id}" />
+                    <div class="commonBtnArea" >
+                        <button class="btn submit">提交</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<include file="Common:foot" />
+<js href="--PUBLIC--/kindeditor/kindeditor.js,--PUBLIC--/kindeditor/lang/zh_CN.js"/>
+<script type="text/javascript">
+    $(function(){
+        var  content ;
+        KindEditor.ready(function(K) {
+            content = K.create('#content',{
+                allowFileManager : true,
+                uploadJson:'--PUBLIC--/kindeditor/php/upload_json.php?dirname=tag'
+            });
+        });
+        $(".submit").click(function(){
+            content.sync();
+            commonAjaxSubmit();
+            return false;
+        });
+    });
+</script>
+</body>
+</html>

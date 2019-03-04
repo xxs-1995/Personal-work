@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>网站后台-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+        $addJs="";
+        $currentNav ='会员列表 > 详细信息';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+<div class="wrap"> <include file="Common:head" />
+    <div class="mainBody"> <include file="Common:left" />
+        <div id="Right">
+            <div class="contentArea">
+                <div class="Item hr">
+                    <div class="current">详细信息</div>
+                </div>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                        <tr>
+                            <th>会员账号:</th>
+                            <td><input  type="text" class="input" size="40" value="{$info.user_tel}" disabled="disabled"/> </td>
+                        </tr>
+                        <tr>
+                            <th>昵称:</th>
+                            <td><input  type="text" class="input" size="40" name="user_nickname" value="{$info.user_nickname}" /> </td>
+                        </tr>
+                        <tr>
+                            <th width="120">年龄：</th>
+                            <td><input  type="text" class="input" size="40" name="user_age" value="{$info.user_age}"/> </td>
+                        </tr>
+                        <tr>
+                            <th width="120">性别：</th>
+                            <td><input  type="text" class="input" size="40" value="{$info.user_sex}" disabled="disabled"/> </td>
+                        </tr>
+                        <tr>
+                            <th width="120">头像：</th>
+                            <td><img src="{$info.user_img}" alt="" width="60" height="60" disabled="disabled"></td>
+                        </tr>
+                        <tr>
+                            <th width="120">所在地区：</th>
+                            <td><input  type="text" class="input" size="40" value="{$info.user_area}" disabled="disabled"/> </td>
+                        </tr>
+                        
+                        <tr>
+                            <th width="120">BOWT：</th>
+                            <td><input  type="text" class="input" size="40"  value="{$info.user_jine}" /> </td>
+                        </tr>
+
+                        <tr>
+                            <th width="120">钻石：</th>
+                            <td><input  type="text" class="input" size="40"  value="{$info.diamonds}" /> </td>
+                        </tr>
+                       
+                        <volist name="bi" id ="vo">
+                                <tr>
+                                        <th width="120">{$vo.title}：</th>
+                                        <td><input  type="text" class="input" size="40"  value="{$vo.bi}" /> </td>
+                                    </tr>
+                        </volist>
+                        <tr>
+                            <th width="120">身份：</th>
+                            <td><select name="user_type" id="">
+                                <option value="1" <if condition="$info['user_type'] eq 1">selected</if> >普通用户</option>
+                                <option value="2" <if condition="$info['user_type'] eq 2">selected</if>>第一期初创矿主</option>
+                                <option value="3" <if condition="$info['user_type'] eq 3">selected</if>>第二期初创矿主</option>
+                            </select></td>
+                        </tr>
+                       
+                        
+                        <!-- <tr>
+                            <th width="120">简介：</th>
+                            <td><input  type="text" class="input" size="40" value="{$info.user_introduce}" /> </td>
+                        </tr> -->
+                        
+                        <tr>
+                            <th width="120">简介：</th>
+                            <td>
+                            <!-- <input  type="text" class="input" size="40" value="" /> -->
+                                <textarea name="user_introduce" id="" cols="50" rows="4" >{$info.user_introduce}</textarea>
+                            </td>
+                        </tr>
+
+                    </table>
+                    <input type="hidden" name="user_id" value="{$info.user_id}"/>
+                    <div class="commonBtnArea" >
+                        <button class="btn submit">提交</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<include file="Common:foot" />
+<script type="text/javascript">
+    $(function(){
+        $(".submit").click(function(){
+            $('form').submit();
+        });
+    });
+</script>
+</body>
+</html>

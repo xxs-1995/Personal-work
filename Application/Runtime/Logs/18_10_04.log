@@ -1,0 +1,457 @@
+[ 2018-10-04T00:00:01+08:00 ] 47.92.104.107 /index.php/Home/Index/wawa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pa_personal` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `pa_personal`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pa_liveset` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `pa_liveset` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-3595.797 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-3595.797 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-986.932 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-986.932 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-61.422 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-61.422 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-650.27 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-650.27 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-1248.52 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-1248.52 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.456 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.456 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-62.038 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-62.038 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.458 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.458 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  ) [ RunTime:0.015625s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.406 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.052 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.052 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.055 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.055 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.064 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.064 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.052 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.052 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-4.901 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-4.901 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-10 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-10 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-105.05 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-105.05 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  ) [ RunTime:0.015625s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 110 行.
+SQL: UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `flowsuanli`=flowsuanli-0 WHERE ( id =  )
+NOTIC: [8] Undefined index: user_id E:\phpstudy\WWW\intelligencemine\Application\Home\Controller\IndexController.class.php 第 111 行.
+SQL: UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `pa_personal` SET `buy_flowsuanli`=buy_flowsuanli-0 WHERE ( id =  )
+SQL: SHOW COLUMNS FROM `pa_mining` [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion E:\phpstudy\WWW\intelligencemine\ThinkPHP\Library\Think\Model.class.php 第 255 行.
+ERR: 非法数据对象！:[0=>Array]
+

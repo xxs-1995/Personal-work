@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>--后台管理-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+        $addJs="";
+        $currentNav ='首页 > banner图管理';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+<div class="wrap">
+    <include file="Common:head" />
+    <div class="mainBody">
+        <include file="Common:left" />
+        <div id="Right">
+            <div class="Item hr">
+                <div class="current" style="max-width: 100px; float: left;">banner图列表</div>
+                <div class="current" style="width: 100px;float: right;"><a href="{:U('bannerAdd')}">添加bannder</a></div>
+            </div>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tab">
+                <thead>
+                <tr align="center">
+                    <td width="10%">图</td>
+                    <td width="10%">添加时间</td>
+                    <td width="20%">操作</td>
+                </tr>
+                </thead>
+                <tbody>
+                <volist name="info" id="tree">
+                    <tr pid="{$tree.parent_id}" cid="{$tree.id}" align="center">
+                        <td  align="center"><img src="{$tree.picarr_img_url}" alt="" width="200" height="100" /><input type="hidden" name="id" value="{$tree.picarr_id}"/></td>
+                        <td  class="tree"><?php echo date("Y-m-d H:i:s",$tree['created_at']); ?></td>
+                        <td align="center" >
+                       
+                        <button class="btn" onclick="window.location.href='{:U('bannerDel')}?id={$tree.picarr_id}&img_url={$tree.picarr_img_url}'">删除</button>
+                        </td>
+                    </tr>
+                </volist>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<form action="" method="post" id="opForm">
+    <input id="cid" type="hidden" name="data[id]" />
+    <input id="act" type="hidden" name="act" />
+    <input id="pid" type="hidden" name="data[parent_id]" />
+    <input id="name" type="hidden" name="data[nav_name]" />
+</form>
+<div class="clear"></div>
+<include file="Common:foot" />
+<script type="text/javascript">
+    $(function(){
+        // $(".opCat").click(function(){
+        //     var obj=$(this).parents("tr");
+        //     $("#cid").val(obj.find("input[name='id']").val());
+        //     $("#act").val(obj.find("select[name='act']").val());
+        //     $("#pid").val(obj.find("select[name='parent_id']").val());
+        //     $("#name").val(obj.find("input[name='nav_name']").val());
+        //     if($("#act").val()=="del"){
+        //         popup.confirm('你真的打算删除该分类吗?','温馨提示',function(action){
+        //             if(action == 'ok'){
+        //                 commonAjaxSubmit("","#opForm");
+        //             }
+        //         });
+        //         return false;
+        //     }
+        //     commonAjaxSubmit("","#opForm");
+        // });
+        var chn=function(cid,op){
+            if(op=="show"){
+                $("tr[pid='"+cid+"']").each(function(){
+                    $(this).removeAttr("status").show();
+                    chn($(this).attr("cid"),"show");
+                });
+            }else{
+                $("tr[pid='"+cid+"']").each(function(){
+                    $(this).attr("status",1).hide();
+                    chn($(this).attr("cid"),"hide");
+                });
+            }
+        }
+        // $(".tree").click(function(){
+        //     if($(this).attr("status")!=1){
+        //         chn($(this).parent().attr("cid"),"hide");
+        //         $(this).attr("status",1);
+        //     }else{
+        //         chn($(this).parent().attr("cid"),"show");
+        //         $(this).removeAttr("status");
+        //     }
+        // });
+    });
+</script>
+</body>
+</html>

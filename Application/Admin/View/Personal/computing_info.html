@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>网站后台-{$site.SITE_INFO.name}</title>
+    <php>
+        $addCss="";
+        $addJs="";
+        $currentNav ='会员列表 > 佣金详细信息';
+    </php>
+    <include file="Common:intoHead" />
+</head>
+<body>
+<div class="wrap"> <include file="Common:head" />
+    <div class="mainBody"> <include file="Common:left" />
+        <div id="Right">
+            <div class="contentArea">
+                <div class="Item hr">
+                    <div class="current">佣金详细信息</div>
+                </div>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                        <tr>
+                            <th>用户昵称:</th>
+                            <td>{$info['personal']['user_nickname']}</td>
+                        </tr>
+                        <tr>
+                            <th>订单号:</th>
+                            <td>{$info.payno}</td>
+                        </tr>
+                        <tr>
+                            <th>佣金类型:</th>
+                            <td>{$info.type}</td>
+                        </tr>
+                        <tr>
+                            <th>佣金货币:</th>
+                            <td>{$info.currency}</td>
+                        </tr>
+                        <tr>
+                            <th>佣金金额:</th>
+                            <td>{$info.suanli}</td>
+                        </tr>
+                        <tr>
+                            <th>备注:</th>
+                            <td>{$info.behavior}</td>
+                        </tr>
+                        <tr>
+                            <th>创建时间:</th>
+                            <td>{$info.createtime|date="Y-m-d H:i:s",###}</td>
+                        </tr>
+                    </table>
+                    <input type="hidden" name="user_id" value="{$info.user_id}"/>
+                    <!-- <div class="commonBtnArea" >
+                        <button class="btn submit">提交</button>
+                    </div> -->
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<include file="Common:foot" />
+<script type="text/javascript">
+    $(function(){
+        $(".submit").click(function(){
+            $('form').submit();
+        });
+    });
+</script>
+</body>
+</html>

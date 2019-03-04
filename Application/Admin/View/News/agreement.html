@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>网站协议-后台管理-{$site.SITE_INFO.name}</title>
+        <php>
+            $addCss="";
+            $addJs="";
+            $currentNav ='网站协议 > 注册协议';
+        </php>
+        <include file="Common:intoHead" />
+        <style>
+            div.spot {
+                float: left;
+                margin: 0 20px 0 0;
+                width: 220px;
+                min-height: 160px;
+                border: 2px dashed #ddd;
+            }
+            .droparea {
+                position: relative;
+                text-align: center;
+            }
+            .droparea .instructions {
+                opacity: 0.8;
+                background-color: #cccccc;
+                height: 25px;
+                z-index: 10;
+                zoom: 1;
+                background-position: initial initial;
+                background-repeat: initial initial;
+                cursor: pointer;
+            }
+            .droparea div, .droparea input {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .droparea input {
+                cursor: pointer;
+                opacity: 0;
+            }
+            .droparea div, .droparea input {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+            #uparea1,#uparea2,#uparea3{
+                height: 170px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <include file="Common:head" />
+            <div class="mainBody">
+                <include file="Common:left" />
+                <div id="Right">
+                    <div class="Item hr">
+                        <div class="current">注册协议</div>
+                    </div>
+                    <form method="post">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+                                <th>内容：</th>
+                                <td><textarea id="content" class="" style="height: 500px; width: 80%;" name="content">{$info}</textarea></td>
+                            </tr>
+                      </form>  </table>
+                       
+                    
+                    <div class="commonBtnArea" >
+                        <button class="btn submit">提交</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <include file="Common:foot" />
+        <js href="--PUBLIC--/kindeditor/kindeditor.js,--PUBLIC--/kindeditor/lang/zh_CN.js"/>
+        <script type="text/javascript">
+           
+            $(function(){
+
+                var  content ;
+                KindEditor.ready(function(K) {
+                    content = K.create('#content',{
+                        allowFileManager : true,
+                        uploadJson:'--PUBLIC--/kindeditor/php/upload_json.php?dirname=product'
+                    });
+                });
+
+                KindEditor.ready(function(K) {
+                    K.create();
+                    var editor = K.editor({
+                        allowFileManager : true,
+                        uploadJson:'--PUBLIC--/kindeditor/php/upload_json.php?dirname=product'
+                        //sdl:false
+                    });
+                    K('#uparea1').click(function() {
+                        editor.loadPlugin('image', function() {
+                            editor.plugin.imageDialog({
+                                imageUrl : K('#image_1').val(),
+                                clickFn : function(url, title, width, height, border, align) {
+                                    $('#image1').css('background-image','url('+url+')').css('background-size','220px 160px');
+                                    K('#image_1').val(url);
+                                   // K('#getImgUrl').val(url);
+                                    editor.hideDialog();
+                                }
+                            });
+                        });
+                    });
+
+                    K('#uparea2').click(function() {
+                        editor.loadPlugin('image', function() {
+                            editor.plugin.imageDialog({
+                                imageUrl : K('#image_2').val(),
+                                clickFn : function(url, title, width, height, border, align) {
+                                    $('#image2').css('background-image','url('+url+')').css('background-size','220px 160px');
+                                    K('#image_2').val(url);
+                                    // K('#getImgUrl').val(url);
+                                    editor.hideDialog();
+                                }
+                            });
+                        });
+                    });
+
+                    K('#uparea3').click(function() {
+                        editor.loadPlugin('image', function() {
+                            editor.plugin.imageDialog({
+                                imageUrl : K('#image_3').val(),
+                                clickFn : function(url, title, width, height, border, align) {
+                                    $('#image3').css('background-image','url('+url+')').css('background-size','220px 160px');
+                                    K('#image_3').val(url);
+                                    // K('#getImgUrl').val(url);
+                                    editor.hideDialog();
+                                }
+                            });
+                        });
+                    });
+
+
+                });
+                
+            });
+        </script>
+        <script>
+        $(function(){
+            $('.submit').click(function(){
+                $('form').submit();
+            })
+        })
+        </script>
+    </body>
+</html>
